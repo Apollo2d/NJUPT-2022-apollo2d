@@ -72,3 +72,4 @@ message(STATUS "  BUILD_TYPE=${CMAKE_BUILD_TYPE}")
 
 # sub directories
 add_subdirectory(src)
+add_subdirectory(hfo_trainer)

@@ -37,6 +37,7 @@ add_executable(sample_player
   bhv_basic_tackle.cpp
   bhv_custom_before_kick_off.cpp
   bhv_go_to_static_ball.cpp
+  bhv_go_to_moving_ball.cpp
   bhv_goalie_basic_move.cpp
   bhv_goalie_chase_ball.cpp
   bhv_goalie_free_kick.cpp
