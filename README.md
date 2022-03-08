@@ -27,8 +27,6 @@ cd /path/to/this/README.md
 ./parse.sh
 ```
 
-4. 修改完成后，首先在本地进行commit操作（推荐多次commit来记录你的修改过程），然后push到你自己的远程仓库后，点击左侧合并请求（merge requests），然后new merge requests。在右侧的target branch中将分支名（可能为master）改为你自己的名字，若没有你的名字，请联系管理员新建一个。
-
 ## 如何修改代码
 
 1. 本比赛的所有修改均应当在`src`目录下的`bhv_go_to_moving_ball.cpp/.h`两个文件中进行，若检测到其他文件有修改，视为违规，给予一定的扣分处罚。
@@ -46,3 +44,8 @@ cd /path/to/this/README.md
 指定trials后有当前代码的成果，你可以执行`./parse.sh`再次查看该结果。
 
 **注意**第一次接球是无效的。
+
+## 如何上传代码
+首先在脚本`push.sh`中的第一行`name=`后面写上自己的名字的缩写，如ccc。
+
+然后执行`./push.sh`即可

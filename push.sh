@@ -1,4 +1,4 @@
-name=ysy
+name=
 
 # 下方内容请不要随意修改
 if [ $name ]; then
