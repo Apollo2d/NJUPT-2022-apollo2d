@@ -3,4 +3,5 @@ if [ ! -d build ]; then
 fi
 cd build
 cmake ..
-make -j2
+core=$(cat /proc/cpuinfo | grep -c processor)
+make -j$(core)

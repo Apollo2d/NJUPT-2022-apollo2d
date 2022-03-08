@@ -1,1 +1,1 @@
-awk -F "@" 'BEGIN {} NR!=1{sum+=$3-$2} END {print "Catch times: " NR-1 "\nAverage cycle: " sum/(NR-1)}' result.log
+awk -F "@" 'BEGIN {max=0;min=65536} NR!=1{sum+=$2;if($2>max)max=$2;if($2<min)min=$2} END {print "Catch times: " NR-1 "\nAverage cycle: " sum/(NR-1) "\nMax cycle: " max "\nMin cycle: " min}' result.log
