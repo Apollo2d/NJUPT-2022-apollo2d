@@ -370,12 +370,13 @@ void HFOTrainer::analyse() {
   if (M_episode_over_time > 0) {
     //每次输出完本轮的log，重置本轮的状态
     if (wm.gameMode().type() == GameMode::PlayOn) {
-      doChangeMode(PM_Pause);
+      doChangeMode(PM_BeforeKickOff);
       resetField();
       std::cout << M_episode << "@"
                 << M_episode_over_time - M_episode_begin_time << std::endl;
     }
-    if (wm.gameMode().type() == GameMode::Pause) {
+    if (wm.time().stopped() > 10) {
+      //等待10个周期后才开始比赛
       doChangeMode(PM_PlayOn);
       M_episode_over_time = 0;
       M_episode_begin_time = wm.time().cycle();

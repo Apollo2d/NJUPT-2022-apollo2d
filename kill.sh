@@ -1,4 +1,4 @@
-kill -9 $(pidof rcssserver)
+kill -2 $(pidof rcssserver) &>/dev/null
+sleep 1
 rm *.rcg *.rcl
-grep -E '@' ./raw_result.log >./result.log
 
