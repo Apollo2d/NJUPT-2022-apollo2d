@@ -60,15 +60,15 @@ include src/CMakeFiles/sample_trainer.dir/flags.make
 src/CMakeFiles/sample_trainer.dir/sample_trainer.cpp.o: src/CMakeFiles/sample_trainer.dir/flags.make
 src/CMakeFiles/sample_trainer.dir/sample_trainer.cpp.o: ../src/sample_trainer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/sample_trainer.dir/sample_trainer.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_trainer.dir/sample_trainer.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/sample_trainer.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_trainer.dir/sample_trainer.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/sample_trainer.cpp
 
 src/CMakeFiles/sample_trainer.dir/sample_trainer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_trainer.dir/sample_trainer.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/sample_trainer.cpp > CMakeFiles/sample_trainer.dir/sample_trainer.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/sample_trainer.cpp > CMakeFiles/sample_trainer.dir/sample_trainer.cpp.i
 
 src/CMakeFiles/sample_trainer.dir/sample_trainer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_trainer.dir/sample_trainer.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/sample_trainer.cpp -o CMakeFiles/sample_trainer.dir/sample_trainer.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/sample_trainer.cpp -o CMakeFiles/sample_trainer.dir/sample_trainer.cpp.s
 
 src/CMakeFiles/sample_trainer.dir/sample_trainer.cpp.o.requires:
 
@@ -84,15 +84,15 @@ src/CMakeFiles/sample_trainer.dir/sample_trainer.cpp.o.provides.build: src/CMake
 src/CMakeFiles/sample_trainer.dir/main_trainer.cpp.o: src/CMakeFiles/sample_trainer.dir/flags.make
 src/CMakeFiles/sample_trainer.dir/main_trainer.cpp.o: ../src/main_trainer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/sample_trainer.dir/main_trainer.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_trainer.dir/main_trainer.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/main_trainer.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_trainer.dir/main_trainer.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/main_trainer.cpp
 
 src/CMakeFiles/sample_trainer.dir/main_trainer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_trainer.dir/main_trainer.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/main_trainer.cpp > CMakeFiles/sample_trainer.dir/main_trainer.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/main_trainer.cpp > CMakeFiles/sample_trainer.dir/main_trainer.cpp.i
 
 src/CMakeFiles/sample_trainer.dir/main_trainer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_trainer.dir/main_trainer.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/main_trainer.cpp -o CMakeFiles/sample_trainer.dir/main_trainer.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/main_trainer.cpp -o CMakeFiles/sample_trainer.dir/main_trainer.cpp.s
 
 src/CMakeFiles/sample_trainer.dir/main_trainer.cpp.o.requires:
 

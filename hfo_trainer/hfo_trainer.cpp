@@ -61,6 +61,7 @@ HFOTrainer::HFOTrainer()
       M_holder_side('U'),
       M_prev_ball_pos(0.0, 0.0),
       M_untouched_time(0),
+      M_episode_begin_time(-1),
       M_episode_over_time(-1),
       M_rng(),
       M_hfo_param() {
@@ -372,11 +373,14 @@ void HFOTrainer::analyse() {
       doChangeMode(PM_BeforeKickOff);
       resetField();
       doChangeMode(PM_KickOff_Left);
+      std::cout << M_episode << "@" << M_episode_begin_time << '@'
+                << M_episode_over_time << std::endl;
     }
     if (wm.time().cycle() - M_episode_over_time >= 2) {
       doChangeMode(PM_PlayOn);
       doKickOff();
       M_episode_over_time = 0;
+      M_episode_begin_time = wm.time().cycle();
       ++M_episode;
       // todo 输出重置信息
     }
@@ -387,6 +391,7 @@ void HFOTrainer::analyse() {
     //正常比赛模式下的判断
     if (wm.ball().pos().dist(wm.allPlayers().at(0)->pos()) <
         ServerParam::i().defaultKickableArea()) {
+      //用于apollo2022校赛，表示球员接到了球
       M_episode_over_time = wm.time().cycle();
     }
     if (crossGoalLine(RIGHT, wm.ball().pos())) {

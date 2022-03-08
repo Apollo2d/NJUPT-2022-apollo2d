@@ -39,59 +39,60 @@
 using namespace rcsc;
 
 class HFOTrainer : public rcsc::TrainerAgent {
-   private:
-   public:
-    HFOTrainer();
+ private:
+ public:
+  HFOTrainer();
 
-    virtual ~HFOTrainer();
+  virtual ~HFOTrainer();
 
-   protected:
-    /*!
-      You can override this method.
-      But you must call TrainerAgent::doInit() in this method.
-    */
-    virtual bool initImpl(rcsc::CmdLineParser& cmd_parser);
+ protected:
+  /*!
+    You can override this method.
+    But you must call TrainerAgent::doInit() in this method.
+  */
+  virtual bool initImpl(rcsc::CmdLineParser& cmd_parser);
 
-    //! main decision
-    virtual void actionImpl();
+  //! main decision
+  virtual void actionImpl();
 
-    virtual void handleInitMessage();
-    virtual void handleServerParam();
-    virtual void handlePlayerParam();
-    virtual void handlePlayerType();
+  virtual void handleInitMessage();
+  virtual void handleServerParam();
+  virtual void handlePlayerParam();
+  virtual void handlePlayerType();
 
-   private:
-    void sampleAction();
-    void recoverForever();
-    void doSubstitute();
-    void doKeepaway();
+ private:
+  void sampleAction();
+  void recoverForever();
+  void doSubstitute();
+  void doKeepaway();
 
-    // HFO
-   public:
-    HFOParam M_hfo_param;
-    void     doHFO();
-    void     initHFO();
-    void     analyse();
+  // HFO
+ public:
+  HFOParam M_hfo_param;
+  void doHFO();
+  void initHFO();
+  void analyse();
 
-   private:
-    bool inHFOArea(const Vector2D& pos);
-    // void logHeader();
-    void logEpisode(const char* endCond);
-    bool crossGoalLine(const SideID side, const Vector2D& prev_ball_pos);
-    void resetField();
+ private:
+  bool inHFOArea(const Vector2D& pos);
+  // void logHeader();
+  void logEpisode(const char* endCond);
+  bool crossGoalLine(const SideID side, const Vector2D& prev_ball_pos);
+  void resetField();
 
-   private:
-    int      M_episode;
-    int      M_offense, M_defense;
-    int      M_time;
-    int      M_take_time;
-    int      M_holder_unum;
-    char     M_holder_side;    // 'L' = left, 'R' = Right, 'U' = Unknown/Neutral
-    Vector2D M_prev_ball_pos;
-    int      M_untouched_time;
-    int      M_episode_over_time;
-    boost::mt19937                    M_rng;
-    std::vector<std::pair<int, int> > M_offsets;
+ private:
+  int M_episode;
+  int M_offense, M_defense;
+  int M_time;
+  int M_take_time;
+  int M_holder_unum;
+  char M_holder_side;  // 'L' = left, 'R' = Right, 'U' = Unknown/Neutral
+  Vector2D M_prev_ball_pos;
+  int M_untouched_time;
+  int M_episode_begin_time;
+  int M_episode_over_time;
+  boost::mt19937 M_rng;
+  std::vector<std::pair<int, int> > M_offsets;
 };
 
 #endif

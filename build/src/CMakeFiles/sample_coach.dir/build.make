@@ -60,15 +60,15 @@ include src/CMakeFiles/sample_coach.dir/flags.make
 src/CMakeFiles/sample_coach.dir/sample_freeform_message.cpp.o: src/CMakeFiles/sample_coach.dir/flags.make
 src/CMakeFiles/sample_coach.dir/sample_freeform_message.cpp.o: ../src/sample_freeform_message.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/sample_coach.dir/sample_freeform_message.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_coach.dir/sample_freeform_message.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/sample_freeform_message.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_coach.dir/sample_freeform_message.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/sample_freeform_message.cpp
 
 src/CMakeFiles/sample_coach.dir/sample_freeform_message.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_coach.dir/sample_freeform_message.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/sample_freeform_message.cpp > CMakeFiles/sample_coach.dir/sample_freeform_message.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/sample_freeform_message.cpp > CMakeFiles/sample_coach.dir/sample_freeform_message.cpp.i
 
 src/CMakeFiles/sample_coach.dir/sample_freeform_message.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_coach.dir/sample_freeform_message.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/sample_freeform_message.cpp -o CMakeFiles/sample_coach.dir/sample_freeform_message.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/sample_freeform_message.cpp -o CMakeFiles/sample_coach.dir/sample_freeform_message.cpp.s
 
 src/CMakeFiles/sample_coach.dir/sample_freeform_message.cpp.o.requires:
 
@@ -84,15 +84,15 @@ src/CMakeFiles/sample_coach.dir/sample_freeform_message.cpp.o.provides.build: sr
 src/CMakeFiles/sample_coach.dir/sample_coach.cpp.o: src/CMakeFiles/sample_coach.dir/flags.make
 src/CMakeFiles/sample_coach.dir/sample_coach.cpp.o: ../src/sample_coach.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/sample_coach.dir/sample_coach.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_coach.dir/sample_coach.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/sample_coach.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_coach.dir/sample_coach.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/sample_coach.cpp
 
 src/CMakeFiles/sample_coach.dir/sample_coach.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_coach.dir/sample_coach.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/sample_coach.cpp > CMakeFiles/sample_coach.dir/sample_coach.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/sample_coach.cpp > CMakeFiles/sample_coach.dir/sample_coach.cpp.i
 
 src/CMakeFiles/sample_coach.dir/sample_coach.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_coach.dir/sample_coach.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/sample_coach.cpp -o CMakeFiles/sample_coach.dir/sample_coach.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/sample_coach.cpp -o CMakeFiles/sample_coach.dir/sample_coach.cpp.s
 
 src/CMakeFiles/sample_coach.dir/sample_coach.cpp.o.requires:
 
@@ -108,15 +108,15 @@ src/CMakeFiles/sample_coach.dir/sample_coach.cpp.o.provides.build: src/CMakeFile
 src/CMakeFiles/sample_coach.dir/main_coach.cpp.o: src/CMakeFiles/sample_coach.dir/flags.make
 src/CMakeFiles/sample_coach.dir/main_coach.cpp.o: ../src/main_coach.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/sample_coach.dir/main_coach.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_coach.dir/main_coach.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/main_coach.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_coach.dir/main_coach.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/main_coach.cpp
 
 src/CMakeFiles/sample_coach.dir/main_coach.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_coach.dir/main_coach.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/main_coach.cpp > CMakeFiles/sample_coach.dir/main_coach.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/main_coach.cpp > CMakeFiles/sample_coach.dir/main_coach.cpp.i
 
 src/CMakeFiles/sample_coach.dir/main_coach.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_coach.dir/main_coach.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/main_coach.cpp -o CMakeFiles/sample_coach.dir/main_coach.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/main_coach.cpp -o CMakeFiles/sample_coach.dir/main_coach.cpp.s
 
 src/CMakeFiles/sample_coach.dir/main_coach.cpp.o.requires:
 
