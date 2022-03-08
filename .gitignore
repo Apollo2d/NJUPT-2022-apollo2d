@@ -5,6 +5,6 @@ sample_trainer
 start.sh
 train.sh
 
-/.vscode
-/build
+.vscode/
+build/
 *.log
