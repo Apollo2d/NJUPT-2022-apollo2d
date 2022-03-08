@@ -60,15 +60,15 @@ include src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/actgen_cross.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/actgen_cross.cpp.o: ../src/chain_action/actgen_cross.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/actgen_cross.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/actgen_cross.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_cross.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/actgen_cross.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_cross.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/actgen_cross.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/actgen_cross.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_cross.cpp > CMakeFiles/sample_player.dir/chain_action/actgen_cross.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_cross.cpp > CMakeFiles/sample_player.dir/chain_action/actgen_cross.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/actgen_cross.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/actgen_cross.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_cross.cpp -o CMakeFiles/sample_player.dir/chain_action/actgen_cross.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_cross.cpp -o CMakeFiles/sample_player.dir/chain_action/actgen_cross.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/actgen_cross.cpp.o.requires:
 
@@ -84,15 +84,15 @@ src/CMakeFiles/sample_player.dir/chain_action/actgen_cross.cpp.o.provides.build:
 src/CMakeFiles/sample_player.dir/chain_action/actgen_direct_pass.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/actgen_direct_pass.cpp.o: ../src/chain_action/actgen_direct_pass.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/actgen_direct_pass.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/actgen_direct_pass.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_direct_pass.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/actgen_direct_pass.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_direct_pass.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/actgen_direct_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/actgen_direct_pass.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_direct_pass.cpp > CMakeFiles/sample_player.dir/chain_action/actgen_direct_pass.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_direct_pass.cpp > CMakeFiles/sample_player.dir/chain_action/actgen_direct_pass.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/actgen_direct_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/actgen_direct_pass.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_direct_pass.cpp -o CMakeFiles/sample_player.dir/chain_action/actgen_direct_pass.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_direct_pass.cpp -o CMakeFiles/sample_player.dir/chain_action/actgen_direct_pass.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/actgen_direct_pass.cpp.o.requires:
 
@@ -108,15 +108,15 @@ src/CMakeFiles/sample_player.dir/chain_action/actgen_direct_pass.cpp.o.provides.
 src/CMakeFiles/sample_player.dir/chain_action/actgen_self_pass.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/actgen_self_pass.cpp.o: ../src/chain_action/actgen_self_pass.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/actgen_self_pass.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/actgen_self_pass.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_self_pass.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/actgen_self_pass.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_self_pass.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/actgen_self_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/actgen_self_pass.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_self_pass.cpp > CMakeFiles/sample_player.dir/chain_action/actgen_self_pass.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_self_pass.cpp > CMakeFiles/sample_player.dir/chain_action/actgen_self_pass.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/actgen_self_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/actgen_self_pass.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_self_pass.cpp -o CMakeFiles/sample_player.dir/chain_action/actgen_self_pass.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_self_pass.cpp -o CMakeFiles/sample_player.dir/chain_action/actgen_self_pass.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/actgen_self_pass.cpp.o.requires:
 
@@ -132,15 +132,15 @@ src/CMakeFiles/sample_player.dir/chain_action/actgen_self_pass.cpp.o.provides.bu
 src/CMakeFiles/sample_player.dir/chain_action/actgen_shoot.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/actgen_shoot.cpp.o: ../src/chain_action/actgen_shoot.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/actgen_shoot.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/actgen_shoot.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_shoot.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/actgen_shoot.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_shoot.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/actgen_shoot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/actgen_shoot.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_shoot.cpp > CMakeFiles/sample_player.dir/chain_action/actgen_shoot.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_shoot.cpp > CMakeFiles/sample_player.dir/chain_action/actgen_shoot.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/actgen_shoot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/actgen_shoot.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_shoot.cpp -o CMakeFiles/sample_player.dir/chain_action/actgen_shoot.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_shoot.cpp -o CMakeFiles/sample_player.dir/chain_action/actgen_shoot.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/actgen_shoot.cpp.o.requires:
 
@@ -156,15 +156,15 @@ src/CMakeFiles/sample_player.dir/chain_action/actgen_shoot.cpp.o.provides.build:
 src/CMakeFiles/sample_player.dir/chain_action/actgen_short_dribble.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/actgen_short_dribble.cpp.o: ../src/chain_action/actgen_short_dribble.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/actgen_short_dribble.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/actgen_short_dribble.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_short_dribble.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/actgen_short_dribble.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_short_dribble.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/actgen_short_dribble.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/actgen_short_dribble.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_short_dribble.cpp > CMakeFiles/sample_player.dir/chain_action/actgen_short_dribble.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_short_dribble.cpp > CMakeFiles/sample_player.dir/chain_action/actgen_short_dribble.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/actgen_short_dribble.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/actgen_short_dribble.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_short_dribble.cpp -o CMakeFiles/sample_player.dir/chain_action/actgen_short_dribble.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_short_dribble.cpp -o CMakeFiles/sample_player.dir/chain_action/actgen_short_dribble.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/actgen_short_dribble.cpp.o.requires:
 
@@ -180,15 +180,15 @@ src/CMakeFiles/sample_player.dir/chain_action/actgen_short_dribble.cpp.o.provide
 src/CMakeFiles/sample_player.dir/chain_action/actgen_simple_dribble.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/actgen_simple_dribble.cpp.o: ../src/chain_action/actgen_simple_dribble.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/actgen_simple_dribble.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/actgen_simple_dribble.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_simple_dribble.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/actgen_simple_dribble.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_simple_dribble.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/actgen_simple_dribble.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/actgen_simple_dribble.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_simple_dribble.cpp > CMakeFiles/sample_player.dir/chain_action/actgen_simple_dribble.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_simple_dribble.cpp > CMakeFiles/sample_player.dir/chain_action/actgen_simple_dribble.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/actgen_simple_dribble.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/actgen_simple_dribble.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_simple_dribble.cpp -o CMakeFiles/sample_player.dir/chain_action/actgen_simple_dribble.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_simple_dribble.cpp -o CMakeFiles/sample_player.dir/chain_action/actgen_simple_dribble.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/actgen_simple_dribble.cpp.o.requires:
 
@@ -204,15 +204,15 @@ src/CMakeFiles/sample_player.dir/chain_action/actgen_simple_dribble.cpp.o.provid
 src/CMakeFiles/sample_player.dir/chain_action/actgen_strict_check_pass.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/actgen_strict_check_pass.cpp.o: ../src/chain_action/actgen_strict_check_pass.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/actgen_strict_check_pass.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/actgen_strict_check_pass.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_strict_check_pass.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/actgen_strict_check_pass.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_strict_check_pass.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/actgen_strict_check_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/actgen_strict_check_pass.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_strict_check_pass.cpp > CMakeFiles/sample_player.dir/chain_action/actgen_strict_check_pass.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_strict_check_pass.cpp > CMakeFiles/sample_player.dir/chain_action/actgen_strict_check_pass.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/actgen_strict_check_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/actgen_strict_check_pass.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_strict_check_pass.cpp -o CMakeFiles/sample_player.dir/chain_action/actgen_strict_check_pass.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/actgen_strict_check_pass.cpp -o CMakeFiles/sample_player.dir/chain_action/actgen_strict_check_pass.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/actgen_strict_check_pass.cpp.o.requires:
 
@@ -228,15 +228,15 @@ src/CMakeFiles/sample_player.dir/chain_action/actgen_strict_check_pass.cpp.o.pro
 src/CMakeFiles/sample_player.dir/chain_action/action_chain_graph.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/action_chain_graph.cpp.o: ../src/chain_action/action_chain_graph.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/action_chain_graph.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/action_chain_graph.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/action_chain_graph.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/action_chain_graph.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/action_chain_graph.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/action_chain_graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/action_chain_graph.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/action_chain_graph.cpp > CMakeFiles/sample_player.dir/chain_action/action_chain_graph.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/action_chain_graph.cpp > CMakeFiles/sample_player.dir/chain_action/action_chain_graph.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/action_chain_graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/action_chain_graph.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/action_chain_graph.cpp -o CMakeFiles/sample_player.dir/chain_action/action_chain_graph.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/action_chain_graph.cpp -o CMakeFiles/sample_player.dir/chain_action/action_chain_graph.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/action_chain_graph.cpp.o.requires:
 
@@ -252,15 +252,15 @@ src/CMakeFiles/sample_player.dir/chain_action/action_chain_graph.cpp.o.provides.
 src/CMakeFiles/sample_player.dir/chain_action/action_chain_holder.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/action_chain_holder.cpp.o: ../src/chain_action/action_chain_holder.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/action_chain_holder.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/action_chain_holder.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/action_chain_holder.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/action_chain_holder.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/action_chain_holder.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/action_chain_holder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/action_chain_holder.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/action_chain_holder.cpp > CMakeFiles/sample_player.dir/chain_action/action_chain_holder.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/action_chain_holder.cpp > CMakeFiles/sample_player.dir/chain_action/action_chain_holder.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/action_chain_holder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/action_chain_holder.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/action_chain_holder.cpp -o CMakeFiles/sample_player.dir/chain_action/action_chain_holder.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/action_chain_holder.cpp -o CMakeFiles/sample_player.dir/chain_action/action_chain_holder.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/action_chain_holder.cpp.o.requires:
 
@@ -276,15 +276,15 @@ src/CMakeFiles/sample_player.dir/chain_action/action_chain_holder.cpp.o.provides
 src/CMakeFiles/sample_player.dir/chain_action/bhv_chain_action.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/bhv_chain_action.cpp.o: ../src/chain_action/bhv_chain_action.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/bhv_chain_action.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/bhv_chain_action.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_chain_action.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/bhv_chain_action.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_chain_action.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/bhv_chain_action.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/bhv_chain_action.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_chain_action.cpp > CMakeFiles/sample_player.dir/chain_action/bhv_chain_action.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_chain_action.cpp > CMakeFiles/sample_player.dir/chain_action/bhv_chain_action.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/bhv_chain_action.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/bhv_chain_action.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_chain_action.cpp -o CMakeFiles/sample_player.dir/chain_action/bhv_chain_action.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_chain_action.cpp -o CMakeFiles/sample_player.dir/chain_action/bhv_chain_action.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/bhv_chain_action.cpp.o.requires:
 
@@ -300,15 +300,15 @@ src/CMakeFiles/sample_player.dir/chain_action/bhv_chain_action.cpp.o.provides.bu
 src/CMakeFiles/sample_player.dir/chain_action/bhv_normal_dribble.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/bhv_normal_dribble.cpp.o: ../src/chain_action/bhv_normal_dribble.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/bhv_normal_dribble.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/bhv_normal_dribble.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_normal_dribble.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/bhv_normal_dribble.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_normal_dribble.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/bhv_normal_dribble.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/bhv_normal_dribble.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_normal_dribble.cpp > CMakeFiles/sample_player.dir/chain_action/bhv_normal_dribble.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_normal_dribble.cpp > CMakeFiles/sample_player.dir/chain_action/bhv_normal_dribble.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/bhv_normal_dribble.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/bhv_normal_dribble.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_normal_dribble.cpp -o CMakeFiles/sample_player.dir/chain_action/bhv_normal_dribble.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_normal_dribble.cpp -o CMakeFiles/sample_player.dir/chain_action/bhv_normal_dribble.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/bhv_normal_dribble.cpp.o.requires:
 
@@ -324,15 +324,15 @@ src/CMakeFiles/sample_player.dir/chain_action/bhv_normal_dribble.cpp.o.provides.
 src/CMakeFiles/sample_player.dir/chain_action/bhv_pass_kick_find_receiver.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/bhv_pass_kick_find_receiver.cpp.o: ../src/chain_action/bhv_pass_kick_find_receiver.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/bhv_pass_kick_find_receiver.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/bhv_pass_kick_find_receiver.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_pass_kick_find_receiver.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/bhv_pass_kick_find_receiver.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_pass_kick_find_receiver.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/bhv_pass_kick_find_receiver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/bhv_pass_kick_find_receiver.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_pass_kick_find_receiver.cpp > CMakeFiles/sample_player.dir/chain_action/bhv_pass_kick_find_receiver.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_pass_kick_find_receiver.cpp > CMakeFiles/sample_player.dir/chain_action/bhv_pass_kick_find_receiver.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/bhv_pass_kick_find_receiver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/bhv_pass_kick_find_receiver.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_pass_kick_find_receiver.cpp -o CMakeFiles/sample_player.dir/chain_action/bhv_pass_kick_find_receiver.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_pass_kick_find_receiver.cpp -o CMakeFiles/sample_player.dir/chain_action/bhv_pass_kick_find_receiver.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/bhv_pass_kick_find_receiver.cpp.o.requires:
 
@@ -348,15 +348,15 @@ src/CMakeFiles/sample_player.dir/chain_action/bhv_pass_kick_find_receiver.cpp.o.
 src/CMakeFiles/sample_player.dir/chain_action/bhv_strict_check_shoot.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/bhv_strict_check_shoot.cpp.o: ../src/chain_action/bhv_strict_check_shoot.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/bhv_strict_check_shoot.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/bhv_strict_check_shoot.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_strict_check_shoot.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/bhv_strict_check_shoot.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_strict_check_shoot.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/bhv_strict_check_shoot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/bhv_strict_check_shoot.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_strict_check_shoot.cpp > CMakeFiles/sample_player.dir/chain_action/bhv_strict_check_shoot.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_strict_check_shoot.cpp > CMakeFiles/sample_player.dir/chain_action/bhv_strict_check_shoot.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/bhv_strict_check_shoot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/bhv_strict_check_shoot.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_strict_check_shoot.cpp -o CMakeFiles/sample_player.dir/chain_action/bhv_strict_check_shoot.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/bhv_strict_check_shoot.cpp -o CMakeFiles/sample_player.dir/chain_action/bhv_strict_check_shoot.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/bhv_strict_check_shoot.cpp.o.requires:
 
@@ -372,15 +372,15 @@ src/CMakeFiles/sample_player.dir/chain_action/bhv_strict_check_shoot.cpp.o.provi
 src/CMakeFiles/sample_player.dir/chain_action/body_force_shoot.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/body_force_shoot.cpp.o: ../src/chain_action/body_force_shoot.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/body_force_shoot.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/body_force_shoot.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/body_force_shoot.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/body_force_shoot.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/body_force_shoot.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/body_force_shoot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/body_force_shoot.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/body_force_shoot.cpp > CMakeFiles/sample_player.dir/chain_action/body_force_shoot.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/body_force_shoot.cpp > CMakeFiles/sample_player.dir/chain_action/body_force_shoot.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/body_force_shoot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/body_force_shoot.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/body_force_shoot.cpp -o CMakeFiles/sample_player.dir/chain_action/body_force_shoot.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/body_force_shoot.cpp -o CMakeFiles/sample_player.dir/chain_action/body_force_shoot.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/body_force_shoot.cpp.o.requires:
 
@@ -396,15 +396,15 @@ src/CMakeFiles/sample_player.dir/chain_action/body_force_shoot.cpp.o.provides.bu
 src/CMakeFiles/sample_player.dir/chain_action/clear_ball.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/clear_ball.cpp.o: ../src/chain_action/clear_ball.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/clear_ball.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/clear_ball.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/clear_ball.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/clear_ball.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/clear_ball.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/clear_ball.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/clear_ball.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/clear_ball.cpp > CMakeFiles/sample_player.dir/chain_action/clear_ball.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/clear_ball.cpp > CMakeFiles/sample_player.dir/chain_action/clear_ball.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/clear_ball.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/clear_ball.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/clear_ball.cpp -o CMakeFiles/sample_player.dir/chain_action/clear_ball.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/clear_ball.cpp -o CMakeFiles/sample_player.dir/chain_action/clear_ball.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/clear_ball.cpp.o.requires:
 
@@ -420,15 +420,15 @@ src/CMakeFiles/sample_player.dir/chain_action/clear_ball.cpp.o.provides.build: s
 src/CMakeFiles/sample_player.dir/chain_action/clear_generator.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/clear_generator.cpp.o: ../src/chain_action/clear_generator.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/clear_generator.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/clear_generator.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/clear_generator.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/clear_generator.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/clear_generator.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/clear_generator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/clear_generator.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/clear_generator.cpp > CMakeFiles/sample_player.dir/chain_action/clear_generator.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/clear_generator.cpp > CMakeFiles/sample_player.dir/chain_action/clear_generator.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/clear_generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/clear_generator.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/clear_generator.cpp -o CMakeFiles/sample_player.dir/chain_action/clear_generator.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/clear_generator.cpp -o CMakeFiles/sample_player.dir/chain_action/clear_generator.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/clear_generator.cpp.o.requires:
 
@@ -444,15 +444,15 @@ src/CMakeFiles/sample_player.dir/chain_action/clear_generator.cpp.o.provides.bui
 src/CMakeFiles/sample_player.dir/chain_action/cooperative_action.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/cooperative_action.cpp.o: ../src/chain_action/cooperative_action.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/cooperative_action.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/cooperative_action.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/cooperative_action.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/cooperative_action.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/cooperative_action.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/cooperative_action.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/cooperative_action.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/cooperative_action.cpp > CMakeFiles/sample_player.dir/chain_action/cooperative_action.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/cooperative_action.cpp > CMakeFiles/sample_player.dir/chain_action/cooperative_action.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/cooperative_action.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/cooperative_action.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/cooperative_action.cpp -o CMakeFiles/sample_player.dir/chain_action/cooperative_action.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/cooperative_action.cpp -o CMakeFiles/sample_player.dir/chain_action/cooperative_action.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/cooperative_action.cpp.o.requires:
 
@@ -468,15 +468,15 @@ src/CMakeFiles/sample_player.dir/chain_action/cooperative_action.cpp.o.provides.
 src/CMakeFiles/sample_player.dir/chain_action/cross_generator.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/cross_generator.cpp.o: ../src/chain_action/cross_generator.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/cross_generator.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/cross_generator.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/cross_generator.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/cross_generator.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/cross_generator.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/cross_generator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/cross_generator.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/cross_generator.cpp > CMakeFiles/sample_player.dir/chain_action/cross_generator.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/cross_generator.cpp > CMakeFiles/sample_player.dir/chain_action/cross_generator.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/cross_generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/cross_generator.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/cross_generator.cpp -o CMakeFiles/sample_player.dir/chain_action/cross_generator.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/cross_generator.cpp -o CMakeFiles/sample_player.dir/chain_action/cross_generator.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/cross_generator.cpp.o.requires:
 
@@ -492,15 +492,15 @@ src/CMakeFiles/sample_player.dir/chain_action/cross_generator.cpp.o.provides.bui
 src/CMakeFiles/sample_player.dir/chain_action/dribble.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/dribble.cpp.o: ../src/chain_action/dribble.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/dribble.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/dribble.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/dribble.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/dribble.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/dribble.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/dribble.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/dribble.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/dribble.cpp > CMakeFiles/sample_player.dir/chain_action/dribble.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/dribble.cpp > CMakeFiles/sample_player.dir/chain_action/dribble.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/dribble.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/dribble.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/dribble.cpp -o CMakeFiles/sample_player.dir/chain_action/dribble.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/dribble.cpp -o CMakeFiles/sample_player.dir/chain_action/dribble.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/dribble.cpp.o.requires:
 
@@ -516,15 +516,15 @@ src/CMakeFiles/sample_player.dir/chain_action/dribble.cpp.o.provides.build: src/
 src/CMakeFiles/sample_player.dir/chain_action/field_analyzer.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/field_analyzer.cpp.o: ../src/chain_action/field_analyzer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/field_analyzer.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/field_analyzer.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/field_analyzer.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/field_analyzer.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/field_analyzer.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/field_analyzer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/field_analyzer.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/field_analyzer.cpp > CMakeFiles/sample_player.dir/chain_action/field_analyzer.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/field_analyzer.cpp > CMakeFiles/sample_player.dir/chain_action/field_analyzer.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/field_analyzer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/field_analyzer.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/field_analyzer.cpp -o CMakeFiles/sample_player.dir/chain_action/field_analyzer.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/field_analyzer.cpp -o CMakeFiles/sample_player.dir/chain_action/field_analyzer.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/field_analyzer.cpp.o.requires:
 
@@ -540,15 +540,15 @@ src/CMakeFiles/sample_player.dir/chain_action/field_analyzer.cpp.o.provides.buil
 src/CMakeFiles/sample_player.dir/chain_action/hold_ball.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/hold_ball.cpp.o: ../src/chain_action/hold_ball.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/hold_ball.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/hold_ball.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/hold_ball.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/hold_ball.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/hold_ball.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/hold_ball.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/hold_ball.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/hold_ball.cpp > CMakeFiles/sample_player.dir/chain_action/hold_ball.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/hold_ball.cpp > CMakeFiles/sample_player.dir/chain_action/hold_ball.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/hold_ball.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/hold_ball.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/hold_ball.cpp -o CMakeFiles/sample_player.dir/chain_action/hold_ball.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/hold_ball.cpp -o CMakeFiles/sample_player.dir/chain_action/hold_ball.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/hold_ball.cpp.o.requires:
 
@@ -564,15 +564,15 @@ src/CMakeFiles/sample_player.dir/chain_action/hold_ball.cpp.o.provides.build: sr
 src/CMakeFiles/sample_player.dir/chain_action/neck_turn_to_receiver.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/neck_turn_to_receiver.cpp.o: ../src/chain_action/neck_turn_to_receiver.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/neck_turn_to_receiver.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/neck_turn_to_receiver.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/neck_turn_to_receiver.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/neck_turn_to_receiver.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/neck_turn_to_receiver.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/neck_turn_to_receiver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/neck_turn_to_receiver.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/neck_turn_to_receiver.cpp > CMakeFiles/sample_player.dir/chain_action/neck_turn_to_receiver.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/neck_turn_to_receiver.cpp > CMakeFiles/sample_player.dir/chain_action/neck_turn_to_receiver.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/neck_turn_to_receiver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/neck_turn_to_receiver.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/neck_turn_to_receiver.cpp -o CMakeFiles/sample_player.dir/chain_action/neck_turn_to_receiver.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/neck_turn_to_receiver.cpp -o CMakeFiles/sample_player.dir/chain_action/neck_turn_to_receiver.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/neck_turn_to_receiver.cpp.o.requires:
 
@@ -588,15 +588,15 @@ src/CMakeFiles/sample_player.dir/chain_action/neck_turn_to_receiver.cpp.o.provid
 src/CMakeFiles/sample_player.dir/chain_action/pass.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/pass.cpp.o: ../src/chain_action/pass.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/pass.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/pass.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/pass.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/pass.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/pass.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/pass.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/pass.cpp > CMakeFiles/sample_player.dir/chain_action/pass.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/pass.cpp > CMakeFiles/sample_player.dir/chain_action/pass.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/pass.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/pass.cpp -o CMakeFiles/sample_player.dir/chain_action/pass.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/pass.cpp -o CMakeFiles/sample_player.dir/chain_action/pass.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/pass.cpp.o.requires:
 
@@ -612,15 +612,15 @@ src/CMakeFiles/sample_player.dir/chain_action/pass.cpp.o.provides.build: src/CMa
 src/CMakeFiles/sample_player.dir/chain_action/predict_state.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/predict_state.cpp.o: ../src/chain_action/predict_state.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/predict_state.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/predict_state.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/predict_state.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/predict_state.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/predict_state.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/predict_state.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/predict_state.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/predict_state.cpp > CMakeFiles/sample_player.dir/chain_action/predict_state.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/predict_state.cpp > CMakeFiles/sample_player.dir/chain_action/predict_state.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/predict_state.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/predict_state.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/predict_state.cpp -o CMakeFiles/sample_player.dir/chain_action/predict_state.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/predict_state.cpp -o CMakeFiles/sample_player.dir/chain_action/predict_state.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/predict_state.cpp.o.requires:
 
@@ -636,15 +636,15 @@ src/CMakeFiles/sample_player.dir/chain_action/predict_state.cpp.o.provides.build
 src/CMakeFiles/sample_player.dir/chain_action/self_pass_generator.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/self_pass_generator.cpp.o: ../src/chain_action/self_pass_generator.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/self_pass_generator.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/self_pass_generator.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/self_pass_generator.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/self_pass_generator.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/self_pass_generator.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/self_pass_generator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/self_pass_generator.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/self_pass_generator.cpp > CMakeFiles/sample_player.dir/chain_action/self_pass_generator.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/self_pass_generator.cpp > CMakeFiles/sample_player.dir/chain_action/self_pass_generator.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/self_pass_generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/self_pass_generator.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/self_pass_generator.cpp -o CMakeFiles/sample_player.dir/chain_action/self_pass_generator.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/self_pass_generator.cpp -o CMakeFiles/sample_player.dir/chain_action/self_pass_generator.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/self_pass_generator.cpp.o.requires:
 
@@ -660,15 +660,15 @@ src/CMakeFiles/sample_player.dir/chain_action/self_pass_generator.cpp.o.provides
 src/CMakeFiles/sample_player.dir/chain_action/shoot.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/shoot.cpp.o: ../src/chain_action/shoot.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/shoot.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/shoot.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/shoot.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/shoot.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/shoot.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/shoot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/shoot.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/shoot.cpp > CMakeFiles/sample_player.dir/chain_action/shoot.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/shoot.cpp > CMakeFiles/sample_player.dir/chain_action/shoot.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/shoot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/shoot.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/shoot.cpp -o CMakeFiles/sample_player.dir/chain_action/shoot.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/shoot.cpp -o CMakeFiles/sample_player.dir/chain_action/shoot.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/shoot.cpp.o.requires:
 
@@ -684,15 +684,15 @@ src/CMakeFiles/sample_player.dir/chain_action/shoot.cpp.o.provides.build: src/CM
 src/CMakeFiles/sample_player.dir/chain_action/shoot_generator.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/shoot_generator.cpp.o: ../src/chain_action/shoot_generator.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/shoot_generator.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/shoot_generator.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/shoot_generator.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/shoot_generator.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/shoot_generator.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/shoot_generator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/shoot_generator.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/shoot_generator.cpp > CMakeFiles/sample_player.dir/chain_action/shoot_generator.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/shoot_generator.cpp > CMakeFiles/sample_player.dir/chain_action/shoot_generator.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/shoot_generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/shoot_generator.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/shoot_generator.cpp -o CMakeFiles/sample_player.dir/chain_action/shoot_generator.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/shoot_generator.cpp -o CMakeFiles/sample_player.dir/chain_action/shoot_generator.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/shoot_generator.cpp.o.requires:
 
@@ -708,15 +708,15 @@ src/CMakeFiles/sample_player.dir/chain_action/shoot_generator.cpp.o.provides.bui
 src/CMakeFiles/sample_player.dir/chain_action/short_dribble_generator.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/short_dribble_generator.cpp.o: ../src/chain_action/short_dribble_generator.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/short_dribble_generator.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/short_dribble_generator.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/short_dribble_generator.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/short_dribble_generator.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/short_dribble_generator.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/short_dribble_generator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/short_dribble_generator.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/short_dribble_generator.cpp > CMakeFiles/sample_player.dir/chain_action/short_dribble_generator.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/short_dribble_generator.cpp > CMakeFiles/sample_player.dir/chain_action/short_dribble_generator.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/short_dribble_generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/short_dribble_generator.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/short_dribble_generator.cpp -o CMakeFiles/sample_player.dir/chain_action/short_dribble_generator.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/short_dribble_generator.cpp -o CMakeFiles/sample_player.dir/chain_action/short_dribble_generator.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/short_dribble_generator.cpp.o.requires:
 
@@ -732,15 +732,15 @@ src/CMakeFiles/sample_player.dir/chain_action/short_dribble_generator.cpp.o.prov
 src/CMakeFiles/sample_player.dir/chain_action/simple_pass_checker.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/simple_pass_checker.cpp.o: ../src/chain_action/simple_pass_checker.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/simple_pass_checker.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/simple_pass_checker.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/simple_pass_checker.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/simple_pass_checker.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/simple_pass_checker.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/simple_pass_checker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/simple_pass_checker.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/simple_pass_checker.cpp > CMakeFiles/sample_player.dir/chain_action/simple_pass_checker.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/simple_pass_checker.cpp > CMakeFiles/sample_player.dir/chain_action/simple_pass_checker.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/simple_pass_checker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/simple_pass_checker.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/simple_pass_checker.cpp -o CMakeFiles/sample_player.dir/chain_action/simple_pass_checker.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/simple_pass_checker.cpp -o CMakeFiles/sample_player.dir/chain_action/simple_pass_checker.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/simple_pass_checker.cpp.o.requires:
 
@@ -756,15 +756,15 @@ src/CMakeFiles/sample_player.dir/chain_action/simple_pass_checker.cpp.o.provides
 src/CMakeFiles/sample_player.dir/chain_action/strict_check_pass_generator.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/strict_check_pass_generator.cpp.o: ../src/chain_action/strict_check_pass_generator.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/strict_check_pass_generator.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/strict_check_pass_generator.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/strict_check_pass_generator.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/strict_check_pass_generator.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/strict_check_pass_generator.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/strict_check_pass_generator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/strict_check_pass_generator.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/strict_check_pass_generator.cpp > CMakeFiles/sample_player.dir/chain_action/strict_check_pass_generator.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/strict_check_pass_generator.cpp > CMakeFiles/sample_player.dir/chain_action/strict_check_pass_generator.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/strict_check_pass_generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/strict_check_pass_generator.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/strict_check_pass_generator.cpp -o CMakeFiles/sample_player.dir/chain_action/strict_check_pass_generator.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/strict_check_pass_generator.cpp -o CMakeFiles/sample_player.dir/chain_action/strict_check_pass_generator.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/strict_check_pass_generator.cpp.o.requires:
 
@@ -780,15 +780,15 @@ src/CMakeFiles/sample_player.dir/chain_action/strict_check_pass_generator.cpp.o.
 src/CMakeFiles/sample_player.dir/chain_action/tackle_generator.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/chain_action/tackle_generator.cpp.o: ../src/chain_action/tackle_generator.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object src/CMakeFiles/sample_player.dir/chain_action/tackle_generator.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/tackle_generator.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/tackle_generator.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/chain_action/tackle_generator.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/tackle_generator.cpp
 
 src/CMakeFiles/sample_player.dir/chain_action/tackle_generator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/chain_action/tackle_generator.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/tackle_generator.cpp > CMakeFiles/sample_player.dir/chain_action/tackle_generator.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/tackle_generator.cpp > CMakeFiles/sample_player.dir/chain_action/tackle_generator.cpp.i
 
 src/CMakeFiles/sample_player.dir/chain_action/tackle_generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/chain_action/tackle_generator.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/tackle_generator.cpp -o CMakeFiles/sample_player.dir/chain_action/tackle_generator.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/chain_action/tackle_generator.cpp -o CMakeFiles/sample_player.dir/chain_action/tackle_generator.cpp.s
 
 src/CMakeFiles/sample_player.dir/chain_action/tackle_generator.cpp.o.requires:
 
@@ -804,15 +804,15 @@ src/CMakeFiles/sample_player.dir/chain_action/tackle_generator.cpp.o.provides.bu
 src/CMakeFiles/sample_player.dir/bhv_basic_move.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/bhv_basic_move.cpp.o: ../src/bhv_basic_move.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object src/CMakeFiles/sample_player.dir/bhv_basic_move.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_basic_move.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_basic_move.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_basic_move.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_basic_move.cpp
 
 src/CMakeFiles/sample_player.dir/bhv_basic_move.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/bhv_basic_move.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_basic_move.cpp > CMakeFiles/sample_player.dir/bhv_basic_move.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_basic_move.cpp > CMakeFiles/sample_player.dir/bhv_basic_move.cpp.i
 
 src/CMakeFiles/sample_player.dir/bhv_basic_move.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/bhv_basic_move.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_basic_move.cpp -o CMakeFiles/sample_player.dir/bhv_basic_move.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_basic_move.cpp -o CMakeFiles/sample_player.dir/bhv_basic_move.cpp.s
 
 src/CMakeFiles/sample_player.dir/bhv_basic_move.cpp.o.requires:
 
@@ -828,15 +828,15 @@ src/CMakeFiles/sample_player.dir/bhv_basic_move.cpp.o.provides.build: src/CMakeF
 src/CMakeFiles/sample_player.dir/bhv_basic_offensive_kick.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/bhv_basic_offensive_kick.cpp.o: ../src/bhv_basic_offensive_kick.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object src/CMakeFiles/sample_player.dir/bhv_basic_offensive_kick.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_basic_offensive_kick.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_basic_offensive_kick.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_basic_offensive_kick.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_basic_offensive_kick.cpp
 
 src/CMakeFiles/sample_player.dir/bhv_basic_offensive_kick.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/bhv_basic_offensive_kick.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_basic_offensive_kick.cpp > CMakeFiles/sample_player.dir/bhv_basic_offensive_kick.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_basic_offensive_kick.cpp > CMakeFiles/sample_player.dir/bhv_basic_offensive_kick.cpp.i
 
 src/CMakeFiles/sample_player.dir/bhv_basic_offensive_kick.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/bhv_basic_offensive_kick.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_basic_offensive_kick.cpp -o CMakeFiles/sample_player.dir/bhv_basic_offensive_kick.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_basic_offensive_kick.cpp -o CMakeFiles/sample_player.dir/bhv_basic_offensive_kick.cpp.s
 
 src/CMakeFiles/sample_player.dir/bhv_basic_offensive_kick.cpp.o.requires:
 
@@ -852,15 +852,15 @@ src/CMakeFiles/sample_player.dir/bhv_basic_offensive_kick.cpp.o.provides.build: 
 src/CMakeFiles/sample_player.dir/bhv_basic_tackle.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/bhv_basic_tackle.cpp.o: ../src/bhv_basic_tackle.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object src/CMakeFiles/sample_player.dir/bhv_basic_tackle.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_basic_tackle.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_basic_tackle.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_basic_tackle.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_basic_tackle.cpp
 
 src/CMakeFiles/sample_player.dir/bhv_basic_tackle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/bhv_basic_tackle.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_basic_tackle.cpp > CMakeFiles/sample_player.dir/bhv_basic_tackle.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_basic_tackle.cpp > CMakeFiles/sample_player.dir/bhv_basic_tackle.cpp.i
 
 src/CMakeFiles/sample_player.dir/bhv_basic_tackle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/bhv_basic_tackle.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_basic_tackle.cpp -o CMakeFiles/sample_player.dir/bhv_basic_tackle.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_basic_tackle.cpp -o CMakeFiles/sample_player.dir/bhv_basic_tackle.cpp.s
 
 src/CMakeFiles/sample_player.dir/bhv_basic_tackle.cpp.o.requires:
 
@@ -876,15 +876,15 @@ src/CMakeFiles/sample_player.dir/bhv_basic_tackle.cpp.o.provides.build: src/CMak
 src/CMakeFiles/sample_player.dir/bhv_custom_before_kick_off.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/bhv_custom_before_kick_off.cpp.o: ../src/bhv_custom_before_kick_off.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object src/CMakeFiles/sample_player.dir/bhv_custom_before_kick_off.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_custom_before_kick_off.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_custom_before_kick_off.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_custom_before_kick_off.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_custom_before_kick_off.cpp
 
 src/CMakeFiles/sample_player.dir/bhv_custom_before_kick_off.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/bhv_custom_before_kick_off.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_custom_before_kick_off.cpp > CMakeFiles/sample_player.dir/bhv_custom_before_kick_off.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_custom_before_kick_off.cpp > CMakeFiles/sample_player.dir/bhv_custom_before_kick_off.cpp.i
 
 src/CMakeFiles/sample_player.dir/bhv_custom_before_kick_off.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/bhv_custom_before_kick_off.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_custom_before_kick_off.cpp -o CMakeFiles/sample_player.dir/bhv_custom_before_kick_off.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_custom_before_kick_off.cpp -o CMakeFiles/sample_player.dir/bhv_custom_before_kick_off.cpp.s
 
 src/CMakeFiles/sample_player.dir/bhv_custom_before_kick_off.cpp.o.requires:
 
@@ -900,15 +900,15 @@ src/CMakeFiles/sample_player.dir/bhv_custom_before_kick_off.cpp.o.provides.build
 src/CMakeFiles/sample_player.dir/bhv_go_to_static_ball.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/bhv_go_to_static_ball.cpp.o: ../src/bhv_go_to_static_ball.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object src/CMakeFiles/sample_player.dir/bhv_go_to_static_ball.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_go_to_static_ball.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_go_to_static_ball.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_go_to_static_ball.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_go_to_static_ball.cpp
 
 src/CMakeFiles/sample_player.dir/bhv_go_to_static_ball.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/bhv_go_to_static_ball.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_go_to_static_ball.cpp > CMakeFiles/sample_player.dir/bhv_go_to_static_ball.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_go_to_static_ball.cpp > CMakeFiles/sample_player.dir/bhv_go_to_static_ball.cpp.i
 
 src/CMakeFiles/sample_player.dir/bhv_go_to_static_ball.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/bhv_go_to_static_ball.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_go_to_static_ball.cpp -o CMakeFiles/sample_player.dir/bhv_go_to_static_ball.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_go_to_static_ball.cpp -o CMakeFiles/sample_player.dir/bhv_go_to_static_ball.cpp.s
 
 src/CMakeFiles/sample_player.dir/bhv_go_to_static_ball.cpp.o.requires:
 
@@ -924,15 +924,15 @@ src/CMakeFiles/sample_player.dir/bhv_go_to_static_ball.cpp.o.provides.build: src
 src/CMakeFiles/sample_player.dir/bhv_go_to_moving_ball.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/bhv_go_to_moving_ball.cpp.o: ../src/bhv_go_to_moving_ball.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object src/CMakeFiles/sample_player.dir/bhv_go_to_moving_ball.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_go_to_moving_ball.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_go_to_moving_ball.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_go_to_moving_ball.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_go_to_moving_ball.cpp
 
 src/CMakeFiles/sample_player.dir/bhv_go_to_moving_ball.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/bhv_go_to_moving_ball.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_go_to_moving_ball.cpp > CMakeFiles/sample_player.dir/bhv_go_to_moving_ball.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_go_to_moving_ball.cpp > CMakeFiles/sample_player.dir/bhv_go_to_moving_ball.cpp.i
 
 src/CMakeFiles/sample_player.dir/bhv_go_to_moving_ball.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/bhv_go_to_moving_ball.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_go_to_moving_ball.cpp -o CMakeFiles/sample_player.dir/bhv_go_to_moving_ball.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_go_to_moving_ball.cpp -o CMakeFiles/sample_player.dir/bhv_go_to_moving_ball.cpp.s
 
 src/CMakeFiles/sample_player.dir/bhv_go_to_moving_ball.cpp.o.requires:
 
@@ -948,15 +948,15 @@ src/CMakeFiles/sample_player.dir/bhv_go_to_moving_ball.cpp.o.provides.build: src
 src/CMakeFiles/sample_player.dir/bhv_goalie_basic_move.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/bhv_goalie_basic_move.cpp.o: ../src/bhv_goalie_basic_move.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object src/CMakeFiles/sample_player.dir/bhv_goalie_basic_move.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_goalie_basic_move.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_goalie_basic_move.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_goalie_basic_move.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_goalie_basic_move.cpp
 
 src/CMakeFiles/sample_player.dir/bhv_goalie_basic_move.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/bhv_goalie_basic_move.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_goalie_basic_move.cpp > CMakeFiles/sample_player.dir/bhv_goalie_basic_move.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_goalie_basic_move.cpp > CMakeFiles/sample_player.dir/bhv_goalie_basic_move.cpp.i
 
 src/CMakeFiles/sample_player.dir/bhv_goalie_basic_move.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/bhv_goalie_basic_move.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_goalie_basic_move.cpp -o CMakeFiles/sample_player.dir/bhv_goalie_basic_move.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_goalie_basic_move.cpp -o CMakeFiles/sample_player.dir/bhv_goalie_basic_move.cpp.s
 
 src/CMakeFiles/sample_player.dir/bhv_goalie_basic_move.cpp.o.requires:
 
@@ -972,15 +972,15 @@ src/CMakeFiles/sample_player.dir/bhv_goalie_basic_move.cpp.o.provides.build: src
 src/CMakeFiles/sample_player.dir/bhv_goalie_chase_ball.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/bhv_goalie_chase_ball.cpp.o: ../src/bhv_goalie_chase_ball.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object src/CMakeFiles/sample_player.dir/bhv_goalie_chase_ball.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_goalie_chase_ball.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_goalie_chase_ball.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_goalie_chase_ball.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_goalie_chase_ball.cpp
 
 src/CMakeFiles/sample_player.dir/bhv_goalie_chase_ball.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/bhv_goalie_chase_ball.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_goalie_chase_ball.cpp > CMakeFiles/sample_player.dir/bhv_goalie_chase_ball.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_goalie_chase_ball.cpp > CMakeFiles/sample_player.dir/bhv_goalie_chase_ball.cpp.i
 
 src/CMakeFiles/sample_player.dir/bhv_goalie_chase_ball.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/bhv_goalie_chase_ball.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_goalie_chase_ball.cpp -o CMakeFiles/sample_player.dir/bhv_goalie_chase_ball.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_goalie_chase_ball.cpp -o CMakeFiles/sample_player.dir/bhv_goalie_chase_ball.cpp.s
 
 src/CMakeFiles/sample_player.dir/bhv_goalie_chase_ball.cpp.o.requires:
 
@@ -996,15 +996,15 @@ src/CMakeFiles/sample_player.dir/bhv_goalie_chase_ball.cpp.o.provides.build: src
 src/CMakeFiles/sample_player.dir/bhv_goalie_free_kick.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/bhv_goalie_free_kick.cpp.o: ../src/bhv_goalie_free_kick.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object src/CMakeFiles/sample_player.dir/bhv_goalie_free_kick.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_goalie_free_kick.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_goalie_free_kick.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_goalie_free_kick.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_goalie_free_kick.cpp
 
 src/CMakeFiles/sample_player.dir/bhv_goalie_free_kick.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/bhv_goalie_free_kick.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_goalie_free_kick.cpp > CMakeFiles/sample_player.dir/bhv_goalie_free_kick.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_goalie_free_kick.cpp > CMakeFiles/sample_player.dir/bhv_goalie_free_kick.cpp.i
 
 src/CMakeFiles/sample_player.dir/bhv_goalie_free_kick.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/bhv_goalie_free_kick.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_goalie_free_kick.cpp -o CMakeFiles/sample_player.dir/bhv_goalie_free_kick.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_goalie_free_kick.cpp -o CMakeFiles/sample_player.dir/bhv_goalie_free_kick.cpp.s
 
 src/CMakeFiles/sample_player.dir/bhv_goalie_free_kick.cpp.o.requires:
 
@@ -1020,15 +1020,15 @@ src/CMakeFiles/sample_player.dir/bhv_goalie_free_kick.cpp.o.provides.build: src/
 src/CMakeFiles/sample_player.dir/bhv_prepare_set_play_kick.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/bhv_prepare_set_play_kick.cpp.o: ../src/bhv_prepare_set_play_kick.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object src/CMakeFiles/sample_player.dir/bhv_prepare_set_play_kick.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_prepare_set_play_kick.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_prepare_set_play_kick.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_prepare_set_play_kick.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_prepare_set_play_kick.cpp
 
 src/CMakeFiles/sample_player.dir/bhv_prepare_set_play_kick.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/bhv_prepare_set_play_kick.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_prepare_set_play_kick.cpp > CMakeFiles/sample_player.dir/bhv_prepare_set_play_kick.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_prepare_set_play_kick.cpp > CMakeFiles/sample_player.dir/bhv_prepare_set_play_kick.cpp.i
 
 src/CMakeFiles/sample_player.dir/bhv_prepare_set_play_kick.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/bhv_prepare_set_play_kick.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_prepare_set_play_kick.cpp -o CMakeFiles/sample_player.dir/bhv_prepare_set_play_kick.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_prepare_set_play_kick.cpp -o CMakeFiles/sample_player.dir/bhv_prepare_set_play_kick.cpp.s
 
 src/CMakeFiles/sample_player.dir/bhv_prepare_set_play_kick.cpp.o.requires:
 
@@ -1044,15 +1044,15 @@ src/CMakeFiles/sample_player.dir/bhv_prepare_set_play_kick.cpp.o.provides.build:
 src/CMakeFiles/sample_player.dir/bhv_set_play.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/bhv_set_play.cpp.o: ../src/bhv_set_play.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object src/CMakeFiles/sample_player.dir/bhv_set_play.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_set_play.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_set_play.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play.cpp
 
 src/CMakeFiles/sample_player.dir/bhv_set_play.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/bhv_set_play.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play.cpp > CMakeFiles/sample_player.dir/bhv_set_play.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play.cpp > CMakeFiles/sample_player.dir/bhv_set_play.cpp.i
 
 src/CMakeFiles/sample_player.dir/bhv_set_play.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/bhv_set_play.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play.cpp -o CMakeFiles/sample_player.dir/bhv_set_play.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play.cpp -o CMakeFiles/sample_player.dir/bhv_set_play.cpp.s
 
 src/CMakeFiles/sample_player.dir/bhv_set_play.cpp.o.requires:
 
@@ -1068,15 +1068,15 @@ src/CMakeFiles/sample_player.dir/bhv_set_play.cpp.o.provides.build: src/CMakeFil
 src/CMakeFiles/sample_player.dir/bhv_set_play_free_kick.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/bhv_set_play_free_kick.cpp.o: ../src/bhv_set_play_free_kick.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object src/CMakeFiles/sample_player.dir/bhv_set_play_free_kick.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_set_play_free_kick.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_free_kick.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_set_play_free_kick.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_free_kick.cpp
 
 src/CMakeFiles/sample_player.dir/bhv_set_play_free_kick.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/bhv_set_play_free_kick.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_free_kick.cpp > CMakeFiles/sample_player.dir/bhv_set_play_free_kick.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_free_kick.cpp > CMakeFiles/sample_player.dir/bhv_set_play_free_kick.cpp.i
 
 src/CMakeFiles/sample_player.dir/bhv_set_play_free_kick.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/bhv_set_play_free_kick.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_free_kick.cpp -o CMakeFiles/sample_player.dir/bhv_set_play_free_kick.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_free_kick.cpp -o CMakeFiles/sample_player.dir/bhv_set_play_free_kick.cpp.s
 
 src/CMakeFiles/sample_player.dir/bhv_set_play_free_kick.cpp.o.requires:
 
@@ -1092,15 +1092,15 @@ src/CMakeFiles/sample_player.dir/bhv_set_play_free_kick.cpp.o.provides.build: sr
 src/CMakeFiles/sample_player.dir/bhv_set_play_goal_kick.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/bhv_set_play_goal_kick.cpp.o: ../src/bhv_set_play_goal_kick.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object src/CMakeFiles/sample_player.dir/bhv_set_play_goal_kick.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_set_play_goal_kick.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_goal_kick.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_set_play_goal_kick.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_goal_kick.cpp
 
 src/CMakeFiles/sample_player.dir/bhv_set_play_goal_kick.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/bhv_set_play_goal_kick.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_goal_kick.cpp > CMakeFiles/sample_player.dir/bhv_set_play_goal_kick.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_goal_kick.cpp > CMakeFiles/sample_player.dir/bhv_set_play_goal_kick.cpp.i
 
 src/CMakeFiles/sample_player.dir/bhv_set_play_goal_kick.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/bhv_set_play_goal_kick.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_goal_kick.cpp -o CMakeFiles/sample_player.dir/bhv_set_play_goal_kick.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_goal_kick.cpp -o CMakeFiles/sample_player.dir/bhv_set_play_goal_kick.cpp.s
 
 src/CMakeFiles/sample_player.dir/bhv_set_play_goal_kick.cpp.o.requires:
 
@@ -1116,15 +1116,15 @@ src/CMakeFiles/sample_player.dir/bhv_set_play_goal_kick.cpp.o.provides.build: sr
 src/CMakeFiles/sample_player.dir/bhv_set_play_indirect_free_kick.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/bhv_set_play_indirect_free_kick.cpp.o: ../src/bhv_set_play_indirect_free_kick.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object src/CMakeFiles/sample_player.dir/bhv_set_play_indirect_free_kick.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_set_play_indirect_free_kick.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_indirect_free_kick.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_set_play_indirect_free_kick.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_indirect_free_kick.cpp
 
 src/CMakeFiles/sample_player.dir/bhv_set_play_indirect_free_kick.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/bhv_set_play_indirect_free_kick.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_indirect_free_kick.cpp > CMakeFiles/sample_player.dir/bhv_set_play_indirect_free_kick.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_indirect_free_kick.cpp > CMakeFiles/sample_player.dir/bhv_set_play_indirect_free_kick.cpp.i
 
 src/CMakeFiles/sample_player.dir/bhv_set_play_indirect_free_kick.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/bhv_set_play_indirect_free_kick.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_indirect_free_kick.cpp -o CMakeFiles/sample_player.dir/bhv_set_play_indirect_free_kick.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_indirect_free_kick.cpp -o CMakeFiles/sample_player.dir/bhv_set_play_indirect_free_kick.cpp.s
 
 src/CMakeFiles/sample_player.dir/bhv_set_play_indirect_free_kick.cpp.o.requires:
 
@@ -1140,15 +1140,15 @@ src/CMakeFiles/sample_player.dir/bhv_set_play_indirect_free_kick.cpp.o.provides.
 src/CMakeFiles/sample_player.dir/bhv_set_play_kick_in.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/bhv_set_play_kick_in.cpp.o: ../src/bhv_set_play_kick_in.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object src/CMakeFiles/sample_player.dir/bhv_set_play_kick_in.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_set_play_kick_in.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_kick_in.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_set_play_kick_in.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_kick_in.cpp
 
 src/CMakeFiles/sample_player.dir/bhv_set_play_kick_in.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/bhv_set_play_kick_in.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_kick_in.cpp > CMakeFiles/sample_player.dir/bhv_set_play_kick_in.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_kick_in.cpp > CMakeFiles/sample_player.dir/bhv_set_play_kick_in.cpp.i
 
 src/CMakeFiles/sample_player.dir/bhv_set_play_kick_in.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/bhv_set_play_kick_in.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_kick_in.cpp -o CMakeFiles/sample_player.dir/bhv_set_play_kick_in.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_kick_in.cpp -o CMakeFiles/sample_player.dir/bhv_set_play_kick_in.cpp.s
 
 src/CMakeFiles/sample_player.dir/bhv_set_play_kick_in.cpp.o.requires:
 
@@ -1164,15 +1164,15 @@ src/CMakeFiles/sample_player.dir/bhv_set_play_kick_in.cpp.o.provides.build: src/
 src/CMakeFiles/sample_player.dir/bhv_set_play_kick_off.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/bhv_set_play_kick_off.cpp.o: ../src/bhv_set_play_kick_off.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object src/CMakeFiles/sample_player.dir/bhv_set_play_kick_off.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_set_play_kick_off.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_kick_off.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_set_play_kick_off.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_kick_off.cpp
 
 src/CMakeFiles/sample_player.dir/bhv_set_play_kick_off.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/bhv_set_play_kick_off.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_kick_off.cpp > CMakeFiles/sample_player.dir/bhv_set_play_kick_off.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_kick_off.cpp > CMakeFiles/sample_player.dir/bhv_set_play_kick_off.cpp.i
 
 src/CMakeFiles/sample_player.dir/bhv_set_play_kick_off.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/bhv_set_play_kick_off.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_kick_off.cpp -o CMakeFiles/sample_player.dir/bhv_set_play_kick_off.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_set_play_kick_off.cpp -o CMakeFiles/sample_player.dir/bhv_set_play_kick_off.cpp.s
 
 src/CMakeFiles/sample_player.dir/bhv_set_play_kick_off.cpp.o.requires:
 
@@ -1188,15 +1188,15 @@ src/CMakeFiles/sample_player.dir/bhv_set_play_kick_off.cpp.o.provides.build: src
 src/CMakeFiles/sample_player.dir/bhv_their_goal_kick_move.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/bhv_their_goal_kick_move.cpp.o: ../src/bhv_their_goal_kick_move.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object src/CMakeFiles/sample_player.dir/bhv_their_goal_kick_move.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_their_goal_kick_move.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_their_goal_kick_move.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_their_goal_kick_move.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_their_goal_kick_move.cpp
 
 src/CMakeFiles/sample_player.dir/bhv_their_goal_kick_move.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/bhv_their_goal_kick_move.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_their_goal_kick_move.cpp > CMakeFiles/sample_player.dir/bhv_their_goal_kick_move.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_their_goal_kick_move.cpp > CMakeFiles/sample_player.dir/bhv_their_goal_kick_move.cpp.i
 
 src/CMakeFiles/sample_player.dir/bhv_their_goal_kick_move.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/bhv_their_goal_kick_move.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_their_goal_kick_move.cpp -o CMakeFiles/sample_player.dir/bhv_their_goal_kick_move.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_their_goal_kick_move.cpp -o CMakeFiles/sample_player.dir/bhv_their_goal_kick_move.cpp.s
 
 src/CMakeFiles/sample_player.dir/bhv_their_goal_kick_move.cpp.o.requires:
 
@@ -1212,15 +1212,15 @@ src/CMakeFiles/sample_player.dir/bhv_their_goal_kick_move.cpp.o.provides.build: 
 src/CMakeFiles/sample_player.dir/bhv_penalty_kick.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/bhv_penalty_kick.cpp.o: ../src/bhv_penalty_kick.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object src/CMakeFiles/sample_player.dir/bhv_penalty_kick.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_penalty_kick.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_penalty_kick.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/bhv_penalty_kick.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_penalty_kick.cpp
 
 src/CMakeFiles/sample_player.dir/bhv_penalty_kick.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/bhv_penalty_kick.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_penalty_kick.cpp > CMakeFiles/sample_player.dir/bhv_penalty_kick.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_penalty_kick.cpp > CMakeFiles/sample_player.dir/bhv_penalty_kick.cpp.i
 
 src/CMakeFiles/sample_player.dir/bhv_penalty_kick.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/bhv_penalty_kick.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_penalty_kick.cpp -o CMakeFiles/sample_player.dir/bhv_penalty_kick.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/bhv_penalty_kick.cpp -o CMakeFiles/sample_player.dir/bhv_penalty_kick.cpp.s
 
 src/CMakeFiles/sample_player.dir/bhv_penalty_kick.cpp.o.requires:
 
@@ -1236,15 +1236,15 @@ src/CMakeFiles/sample_player.dir/bhv_penalty_kick.cpp.o.provides.build: src/CMak
 src/CMakeFiles/sample_player.dir/neck_default_intercept_neck.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/neck_default_intercept_neck.cpp.o: ../src/neck_default_intercept_neck.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object src/CMakeFiles/sample_player.dir/neck_default_intercept_neck.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/neck_default_intercept_neck.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/neck_default_intercept_neck.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/neck_default_intercept_neck.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/neck_default_intercept_neck.cpp
 
 src/CMakeFiles/sample_player.dir/neck_default_intercept_neck.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/neck_default_intercept_neck.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/neck_default_intercept_neck.cpp > CMakeFiles/sample_player.dir/neck_default_intercept_neck.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/neck_default_intercept_neck.cpp > CMakeFiles/sample_player.dir/neck_default_intercept_neck.cpp.i
 
 src/CMakeFiles/sample_player.dir/neck_default_intercept_neck.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/neck_default_intercept_neck.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/neck_default_intercept_neck.cpp -o CMakeFiles/sample_player.dir/neck_default_intercept_neck.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/neck_default_intercept_neck.cpp -o CMakeFiles/sample_player.dir/neck_default_intercept_neck.cpp.s
 
 src/CMakeFiles/sample_player.dir/neck_default_intercept_neck.cpp.o.requires:
 
@@ -1260,15 +1260,15 @@ src/CMakeFiles/sample_player.dir/neck_default_intercept_neck.cpp.o.provides.buil
 src/CMakeFiles/sample_player.dir/neck_goalie_turn_neck.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/neck_goalie_turn_neck.cpp.o: ../src/neck_goalie_turn_neck.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object src/CMakeFiles/sample_player.dir/neck_goalie_turn_neck.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/neck_goalie_turn_neck.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/neck_goalie_turn_neck.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/neck_goalie_turn_neck.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/neck_goalie_turn_neck.cpp
 
 src/CMakeFiles/sample_player.dir/neck_goalie_turn_neck.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/neck_goalie_turn_neck.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/neck_goalie_turn_neck.cpp > CMakeFiles/sample_player.dir/neck_goalie_turn_neck.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/neck_goalie_turn_neck.cpp > CMakeFiles/sample_player.dir/neck_goalie_turn_neck.cpp.i
 
 src/CMakeFiles/sample_player.dir/neck_goalie_turn_neck.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/neck_goalie_turn_neck.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/neck_goalie_turn_neck.cpp -o CMakeFiles/sample_player.dir/neck_goalie_turn_neck.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/neck_goalie_turn_neck.cpp -o CMakeFiles/sample_player.dir/neck_goalie_turn_neck.cpp.s
 
 src/CMakeFiles/sample_player.dir/neck_goalie_turn_neck.cpp.o.requires:
 
@@ -1284,15 +1284,15 @@ src/CMakeFiles/sample_player.dir/neck_goalie_turn_neck.cpp.o.provides.build: src
 src/CMakeFiles/sample_player.dir/neck_offensive_intercept_neck.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/neck_offensive_intercept_neck.cpp.o: ../src/neck_offensive_intercept_neck.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object src/CMakeFiles/sample_player.dir/neck_offensive_intercept_neck.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/neck_offensive_intercept_neck.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/neck_offensive_intercept_neck.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/neck_offensive_intercept_neck.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/neck_offensive_intercept_neck.cpp
 
 src/CMakeFiles/sample_player.dir/neck_offensive_intercept_neck.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/neck_offensive_intercept_neck.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/neck_offensive_intercept_neck.cpp > CMakeFiles/sample_player.dir/neck_offensive_intercept_neck.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/neck_offensive_intercept_neck.cpp > CMakeFiles/sample_player.dir/neck_offensive_intercept_neck.cpp.i
 
 src/CMakeFiles/sample_player.dir/neck_offensive_intercept_neck.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/neck_offensive_intercept_neck.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/neck_offensive_intercept_neck.cpp -o CMakeFiles/sample_player.dir/neck_offensive_intercept_neck.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/neck_offensive_intercept_neck.cpp -o CMakeFiles/sample_player.dir/neck_offensive_intercept_neck.cpp.s
 
 src/CMakeFiles/sample_player.dir/neck_offensive_intercept_neck.cpp.o.requires:
 
@@ -1308,15 +1308,15 @@ src/CMakeFiles/sample_player.dir/neck_offensive_intercept_neck.cpp.o.provides.bu
 src/CMakeFiles/sample_player.dir/view_tactical.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/view_tactical.cpp.o: ../src/view_tactical.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object src/CMakeFiles/sample_player.dir/view_tactical.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/view_tactical.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/view_tactical.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/view_tactical.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/view_tactical.cpp
 
 src/CMakeFiles/sample_player.dir/view_tactical.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/view_tactical.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/view_tactical.cpp > CMakeFiles/sample_player.dir/view_tactical.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/view_tactical.cpp > CMakeFiles/sample_player.dir/view_tactical.cpp.i
 
 src/CMakeFiles/sample_player.dir/view_tactical.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/view_tactical.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/view_tactical.cpp -o CMakeFiles/sample_player.dir/view_tactical.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/view_tactical.cpp -o CMakeFiles/sample_player.dir/view_tactical.cpp.s
 
 src/CMakeFiles/sample_player.dir/view_tactical.cpp.o.requires:
 
@@ -1332,15 +1332,15 @@ src/CMakeFiles/sample_player.dir/view_tactical.cpp.o.provides.build: src/CMakeFi
 src/CMakeFiles/sample_player.dir/intention_receive.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/intention_receive.cpp.o: ../src/intention_receive.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object src/CMakeFiles/sample_player.dir/intention_receive.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/intention_receive.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/intention_receive.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/intention_receive.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/intention_receive.cpp
 
 src/CMakeFiles/sample_player.dir/intention_receive.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/intention_receive.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/intention_receive.cpp > CMakeFiles/sample_player.dir/intention_receive.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/intention_receive.cpp > CMakeFiles/sample_player.dir/intention_receive.cpp.i
 
 src/CMakeFiles/sample_player.dir/intention_receive.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/intention_receive.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/intention_receive.cpp -o CMakeFiles/sample_player.dir/intention_receive.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/intention_receive.cpp -o CMakeFiles/sample_player.dir/intention_receive.cpp.s
 
 src/CMakeFiles/sample_player.dir/intention_receive.cpp.o.requires:
 
@@ -1356,15 +1356,15 @@ src/CMakeFiles/sample_player.dir/intention_receive.cpp.o.provides.build: src/CMa
 src/CMakeFiles/sample_player.dir/intention_wait_after_set_play_kick.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/intention_wait_after_set_play_kick.cpp.o: ../src/intention_wait_after_set_play_kick.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object src/CMakeFiles/sample_player.dir/intention_wait_after_set_play_kick.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/intention_wait_after_set_play_kick.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/intention_wait_after_set_play_kick.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/intention_wait_after_set_play_kick.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/intention_wait_after_set_play_kick.cpp
 
 src/CMakeFiles/sample_player.dir/intention_wait_after_set_play_kick.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/intention_wait_after_set_play_kick.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/intention_wait_after_set_play_kick.cpp > CMakeFiles/sample_player.dir/intention_wait_after_set_play_kick.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/intention_wait_after_set_play_kick.cpp > CMakeFiles/sample_player.dir/intention_wait_after_set_play_kick.cpp.i
 
 src/CMakeFiles/sample_player.dir/intention_wait_after_set_play_kick.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/intention_wait_after_set_play_kick.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/intention_wait_after_set_play_kick.cpp -o CMakeFiles/sample_player.dir/intention_wait_after_set_play_kick.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/intention_wait_after_set_play_kick.cpp -o CMakeFiles/sample_player.dir/intention_wait_after_set_play_kick.cpp.s
 
 src/CMakeFiles/sample_player.dir/intention_wait_after_set_play_kick.cpp.o.requires:
 
@@ -1380,15 +1380,15 @@ src/CMakeFiles/sample_player.dir/intention_wait_after_set_play_kick.cpp.o.provid
 src/CMakeFiles/sample_player.dir/soccer_role.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/soccer_role.cpp.o: ../src/soccer_role.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object src/CMakeFiles/sample_player.dir/soccer_role.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/soccer_role.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/soccer_role.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/soccer_role.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/soccer_role.cpp
 
 src/CMakeFiles/sample_player.dir/soccer_role.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/soccer_role.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/soccer_role.cpp > CMakeFiles/sample_player.dir/soccer_role.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/soccer_role.cpp > CMakeFiles/sample_player.dir/soccer_role.cpp.i
 
 src/CMakeFiles/sample_player.dir/soccer_role.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/soccer_role.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/soccer_role.cpp -o CMakeFiles/sample_player.dir/soccer_role.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/soccer_role.cpp -o CMakeFiles/sample_player.dir/soccer_role.cpp.s
 
 src/CMakeFiles/sample_player.dir/soccer_role.cpp.o.requires:
 
@@ -1404,15 +1404,15 @@ src/CMakeFiles/sample_player.dir/soccer_role.cpp.o.provides.build: src/CMakeFile
 src/CMakeFiles/sample_player.dir/role_center_back.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/role_center_back.cpp.o: ../src/role_center_back.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object src/CMakeFiles/sample_player.dir/role_center_back.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/role_center_back.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/role_center_back.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/role_center_back.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/role_center_back.cpp
 
 src/CMakeFiles/sample_player.dir/role_center_back.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/role_center_back.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/role_center_back.cpp > CMakeFiles/sample_player.dir/role_center_back.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/role_center_back.cpp > CMakeFiles/sample_player.dir/role_center_back.cpp.i
 
 src/CMakeFiles/sample_player.dir/role_center_back.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/role_center_back.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/role_center_back.cpp -o CMakeFiles/sample_player.dir/role_center_back.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/role_center_back.cpp -o CMakeFiles/sample_player.dir/role_center_back.cpp.s
 
 src/CMakeFiles/sample_player.dir/role_center_back.cpp.o.requires:
 
@@ -1428,15 +1428,15 @@ src/CMakeFiles/sample_player.dir/role_center_back.cpp.o.provides.build: src/CMak
 src/CMakeFiles/sample_player.dir/role_center_forward.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/role_center_forward.cpp.o: ../src/role_center_forward.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object src/CMakeFiles/sample_player.dir/role_center_forward.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/role_center_forward.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/role_center_forward.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/role_center_forward.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/role_center_forward.cpp
 
 src/CMakeFiles/sample_player.dir/role_center_forward.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/role_center_forward.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/role_center_forward.cpp > CMakeFiles/sample_player.dir/role_center_forward.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/role_center_forward.cpp > CMakeFiles/sample_player.dir/role_center_forward.cpp.i
 
 src/CMakeFiles/sample_player.dir/role_center_forward.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/role_center_forward.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/role_center_forward.cpp -o CMakeFiles/sample_player.dir/role_center_forward.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/role_center_forward.cpp -o CMakeFiles/sample_player.dir/role_center_forward.cpp.s
 
 src/CMakeFiles/sample_player.dir/role_center_forward.cpp.o.requires:
 
@@ -1452,15 +1452,15 @@ src/CMakeFiles/sample_player.dir/role_center_forward.cpp.o.provides.build: src/C
 src/CMakeFiles/sample_player.dir/role_defensive_half.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/role_defensive_half.cpp.o: ../src/role_defensive_half.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object src/CMakeFiles/sample_player.dir/role_defensive_half.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/role_defensive_half.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/role_defensive_half.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/role_defensive_half.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/role_defensive_half.cpp
 
 src/CMakeFiles/sample_player.dir/role_defensive_half.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/role_defensive_half.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/role_defensive_half.cpp > CMakeFiles/sample_player.dir/role_defensive_half.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/role_defensive_half.cpp > CMakeFiles/sample_player.dir/role_defensive_half.cpp.i
 
 src/CMakeFiles/sample_player.dir/role_defensive_half.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/role_defensive_half.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/role_defensive_half.cpp -o CMakeFiles/sample_player.dir/role_defensive_half.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/role_defensive_half.cpp -o CMakeFiles/sample_player.dir/role_defensive_half.cpp.s
 
 src/CMakeFiles/sample_player.dir/role_defensive_half.cpp.o.requires:
 
@@ -1476,15 +1476,15 @@ src/CMakeFiles/sample_player.dir/role_defensive_half.cpp.o.provides.build: src/C
 src/CMakeFiles/sample_player.dir/role_goalie.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/role_goalie.cpp.o: ../src/role_goalie.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object src/CMakeFiles/sample_player.dir/role_goalie.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/role_goalie.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/role_goalie.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/role_goalie.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/role_goalie.cpp
 
 src/CMakeFiles/sample_player.dir/role_goalie.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/role_goalie.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/role_goalie.cpp > CMakeFiles/sample_player.dir/role_goalie.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/role_goalie.cpp > CMakeFiles/sample_player.dir/role_goalie.cpp.i
 
 src/CMakeFiles/sample_player.dir/role_goalie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/role_goalie.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/role_goalie.cpp -o CMakeFiles/sample_player.dir/role_goalie.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/role_goalie.cpp -o CMakeFiles/sample_player.dir/role_goalie.cpp.s
 
 src/CMakeFiles/sample_player.dir/role_goalie.cpp.o.requires:
 
@@ -1500,15 +1500,15 @@ src/CMakeFiles/sample_player.dir/role_goalie.cpp.o.provides.build: src/CMakeFile
 src/CMakeFiles/sample_player.dir/role_offensive_half.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/role_offensive_half.cpp.o: ../src/role_offensive_half.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object src/CMakeFiles/sample_player.dir/role_offensive_half.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/role_offensive_half.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/role_offensive_half.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/role_offensive_half.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/role_offensive_half.cpp
 
 src/CMakeFiles/sample_player.dir/role_offensive_half.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/role_offensive_half.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/role_offensive_half.cpp > CMakeFiles/sample_player.dir/role_offensive_half.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/role_offensive_half.cpp > CMakeFiles/sample_player.dir/role_offensive_half.cpp.i
 
 src/CMakeFiles/sample_player.dir/role_offensive_half.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/role_offensive_half.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/role_offensive_half.cpp -o CMakeFiles/sample_player.dir/role_offensive_half.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/role_offensive_half.cpp -o CMakeFiles/sample_player.dir/role_offensive_half.cpp.s
 
 src/CMakeFiles/sample_player.dir/role_offensive_half.cpp.o.requires:
 
@@ -1524,15 +1524,15 @@ src/CMakeFiles/sample_player.dir/role_offensive_half.cpp.o.provides.build: src/C
 src/CMakeFiles/sample_player.dir/role_sample.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/role_sample.cpp.o: ../src/role_sample.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object src/CMakeFiles/sample_player.dir/role_sample.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/role_sample.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/role_sample.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/role_sample.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/role_sample.cpp
 
 src/CMakeFiles/sample_player.dir/role_sample.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/role_sample.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/role_sample.cpp > CMakeFiles/sample_player.dir/role_sample.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/role_sample.cpp > CMakeFiles/sample_player.dir/role_sample.cpp.i
 
 src/CMakeFiles/sample_player.dir/role_sample.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/role_sample.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/role_sample.cpp -o CMakeFiles/sample_player.dir/role_sample.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/role_sample.cpp -o CMakeFiles/sample_player.dir/role_sample.cpp.s
 
 src/CMakeFiles/sample_player.dir/role_sample.cpp.o.requires:
 
@@ -1548,15 +1548,15 @@ src/CMakeFiles/sample_player.dir/role_sample.cpp.o.provides.build: src/CMakeFile
 src/CMakeFiles/sample_player.dir/role_side_back.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/role_side_back.cpp.o: ../src/role_side_back.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object src/CMakeFiles/sample_player.dir/role_side_back.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/role_side_back.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/role_side_back.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/role_side_back.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/role_side_back.cpp
 
 src/CMakeFiles/sample_player.dir/role_side_back.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/role_side_back.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/role_side_back.cpp > CMakeFiles/sample_player.dir/role_side_back.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/role_side_back.cpp > CMakeFiles/sample_player.dir/role_side_back.cpp.i
 
 src/CMakeFiles/sample_player.dir/role_side_back.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/role_side_back.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/role_side_back.cpp -o CMakeFiles/sample_player.dir/role_side_back.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/role_side_back.cpp -o CMakeFiles/sample_player.dir/role_side_back.cpp.s
 
 src/CMakeFiles/sample_player.dir/role_side_back.cpp.o.requires:
 
@@ -1572,15 +1572,15 @@ src/CMakeFiles/sample_player.dir/role_side_back.cpp.o.provides.build: src/CMakeF
 src/CMakeFiles/sample_player.dir/role_side_forward.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/role_side_forward.cpp.o: ../src/role_side_forward.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object src/CMakeFiles/sample_player.dir/role_side_forward.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/role_side_forward.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/role_side_forward.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/role_side_forward.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/role_side_forward.cpp
 
 src/CMakeFiles/sample_player.dir/role_side_forward.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/role_side_forward.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/role_side_forward.cpp > CMakeFiles/sample_player.dir/role_side_forward.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/role_side_forward.cpp > CMakeFiles/sample_player.dir/role_side_forward.cpp.i
 
 src/CMakeFiles/sample_player.dir/role_side_forward.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/role_side_forward.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/role_side_forward.cpp -o CMakeFiles/sample_player.dir/role_side_forward.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/role_side_forward.cpp -o CMakeFiles/sample_player.dir/role_side_forward.cpp.s
 
 src/CMakeFiles/sample_player.dir/role_side_forward.cpp.o.requires:
 
@@ -1596,15 +1596,15 @@ src/CMakeFiles/sample_player.dir/role_side_forward.cpp.o.provides.build: src/CMa
 src/CMakeFiles/sample_player.dir/role_side_half.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/role_side_half.cpp.o: ../src/role_side_half.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object src/CMakeFiles/sample_player.dir/role_side_half.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/role_side_half.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/role_side_half.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/role_side_half.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/role_side_half.cpp
 
 src/CMakeFiles/sample_player.dir/role_side_half.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/role_side_half.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/role_side_half.cpp > CMakeFiles/sample_player.dir/role_side_half.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/role_side_half.cpp > CMakeFiles/sample_player.dir/role_side_half.cpp.i
 
 src/CMakeFiles/sample_player.dir/role_side_half.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/role_side_half.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/role_side_half.cpp -o CMakeFiles/sample_player.dir/role_side_half.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/role_side_half.cpp -o CMakeFiles/sample_player.dir/role_side_half.cpp.s
 
 src/CMakeFiles/sample_player.dir/role_side_half.cpp.o.requires:
 
@@ -1620,15 +1620,15 @@ src/CMakeFiles/sample_player.dir/role_side_half.cpp.o.provides.build: src/CMakeF
 src/CMakeFiles/sample_player.dir/role_keepaway_keeper.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/role_keepaway_keeper.cpp.o: ../src/role_keepaway_keeper.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object src/CMakeFiles/sample_player.dir/role_keepaway_keeper.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/role_keepaway_keeper.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/role_keepaway_keeper.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/role_keepaway_keeper.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/role_keepaway_keeper.cpp
 
 src/CMakeFiles/sample_player.dir/role_keepaway_keeper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/role_keepaway_keeper.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/role_keepaway_keeper.cpp > CMakeFiles/sample_player.dir/role_keepaway_keeper.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/role_keepaway_keeper.cpp > CMakeFiles/sample_player.dir/role_keepaway_keeper.cpp.i
 
 src/CMakeFiles/sample_player.dir/role_keepaway_keeper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/role_keepaway_keeper.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/role_keepaway_keeper.cpp -o CMakeFiles/sample_player.dir/role_keepaway_keeper.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/role_keepaway_keeper.cpp -o CMakeFiles/sample_player.dir/role_keepaway_keeper.cpp.s
 
 src/CMakeFiles/sample_player.dir/role_keepaway_keeper.cpp.o.requires:
 
@@ -1644,15 +1644,15 @@ src/CMakeFiles/sample_player.dir/role_keepaway_keeper.cpp.o.provides.build: src/
 src/CMakeFiles/sample_player.dir/role_keepaway_taker.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/role_keepaway_taker.cpp.o: ../src/role_keepaway_taker.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object src/CMakeFiles/sample_player.dir/role_keepaway_taker.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/role_keepaway_taker.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/role_keepaway_taker.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/role_keepaway_taker.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/role_keepaway_taker.cpp
 
 src/CMakeFiles/sample_player.dir/role_keepaway_taker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/role_keepaway_taker.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/role_keepaway_taker.cpp > CMakeFiles/sample_player.dir/role_keepaway_taker.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/role_keepaway_taker.cpp > CMakeFiles/sample_player.dir/role_keepaway_taker.cpp.i
 
 src/CMakeFiles/sample_player.dir/role_keepaway_taker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/role_keepaway_taker.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/role_keepaway_taker.cpp -o CMakeFiles/sample_player.dir/role_keepaway_taker.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/role_keepaway_taker.cpp -o CMakeFiles/sample_player.dir/role_keepaway_taker.cpp.s
 
 src/CMakeFiles/sample_player.dir/role_keepaway_taker.cpp.o.requires:
 
@@ -1668,15 +1668,15 @@ src/CMakeFiles/sample_player.dir/role_keepaway_taker.cpp.o.provides.build: src/C
 src/CMakeFiles/sample_player.dir/keepaway_communication.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/keepaway_communication.cpp.o: ../src/keepaway_communication.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object src/CMakeFiles/sample_player.dir/keepaway_communication.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/keepaway_communication.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/keepaway_communication.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/keepaway_communication.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/keepaway_communication.cpp
 
 src/CMakeFiles/sample_player.dir/keepaway_communication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/keepaway_communication.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/keepaway_communication.cpp > CMakeFiles/sample_player.dir/keepaway_communication.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/keepaway_communication.cpp > CMakeFiles/sample_player.dir/keepaway_communication.cpp.i
 
 src/CMakeFiles/sample_player.dir/keepaway_communication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/keepaway_communication.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/keepaway_communication.cpp -o CMakeFiles/sample_player.dir/keepaway_communication.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/keepaway_communication.cpp -o CMakeFiles/sample_player.dir/keepaway_communication.cpp.s
 
 src/CMakeFiles/sample_player.dir/keepaway_communication.cpp.o.requires:
 
@@ -1692,15 +1692,15 @@ src/CMakeFiles/sample_player.dir/keepaway_communication.cpp.o.provides.build: sr
 src/CMakeFiles/sample_player.dir/sample_communication.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/sample_communication.cpp.o: ../src/sample_communication.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object src/CMakeFiles/sample_player.dir/sample_communication.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/sample_communication.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/sample_communication.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/sample_communication.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/sample_communication.cpp
 
 src/CMakeFiles/sample_player.dir/sample_communication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/sample_communication.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/sample_communication.cpp > CMakeFiles/sample_player.dir/sample_communication.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/sample_communication.cpp > CMakeFiles/sample_player.dir/sample_communication.cpp.i
 
 src/CMakeFiles/sample_player.dir/sample_communication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/sample_communication.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/sample_communication.cpp -o CMakeFiles/sample_player.dir/sample_communication.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/sample_communication.cpp -o CMakeFiles/sample_player.dir/sample_communication.cpp.s
 
 src/CMakeFiles/sample_player.dir/sample_communication.cpp.o.requires:
 
@@ -1716,15 +1716,15 @@ src/CMakeFiles/sample_player.dir/sample_communication.cpp.o.provides.build: src/
 src/CMakeFiles/sample_player.dir/sample_field_evaluator.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/sample_field_evaluator.cpp.o: ../src/sample_field_evaluator.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object src/CMakeFiles/sample_player.dir/sample_field_evaluator.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/sample_field_evaluator.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/sample_field_evaluator.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/sample_field_evaluator.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/sample_field_evaluator.cpp
 
 src/CMakeFiles/sample_player.dir/sample_field_evaluator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/sample_field_evaluator.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/sample_field_evaluator.cpp > CMakeFiles/sample_player.dir/sample_field_evaluator.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/sample_field_evaluator.cpp > CMakeFiles/sample_player.dir/sample_field_evaluator.cpp.i
 
 src/CMakeFiles/sample_player.dir/sample_field_evaluator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/sample_field_evaluator.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/sample_field_evaluator.cpp -o CMakeFiles/sample_player.dir/sample_field_evaluator.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/sample_field_evaluator.cpp -o CMakeFiles/sample_player.dir/sample_field_evaluator.cpp.s
 
 src/CMakeFiles/sample_player.dir/sample_field_evaluator.cpp.o.requires:
 
@@ -1740,15 +1740,15 @@ src/CMakeFiles/sample_player.dir/sample_field_evaluator.cpp.o.provides.build: sr
 src/CMakeFiles/sample_player.dir/sample_freeform_message_parser.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/sample_freeform_message_parser.cpp.o: ../src/sample_freeform_message_parser.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object src/CMakeFiles/sample_player.dir/sample_freeform_message_parser.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/sample_freeform_message_parser.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/sample_freeform_message_parser.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/sample_freeform_message_parser.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/sample_freeform_message_parser.cpp
 
 src/CMakeFiles/sample_player.dir/sample_freeform_message_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/sample_freeform_message_parser.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/sample_freeform_message_parser.cpp > CMakeFiles/sample_player.dir/sample_freeform_message_parser.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/sample_freeform_message_parser.cpp > CMakeFiles/sample_player.dir/sample_freeform_message_parser.cpp.i
 
 src/CMakeFiles/sample_player.dir/sample_freeform_message_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/sample_freeform_message_parser.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/sample_freeform_message_parser.cpp -o CMakeFiles/sample_player.dir/sample_freeform_message_parser.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/sample_freeform_message_parser.cpp -o CMakeFiles/sample_player.dir/sample_freeform_message_parser.cpp.s
 
 src/CMakeFiles/sample_player.dir/sample_freeform_message_parser.cpp.o.requires:
 
@@ -1764,15 +1764,15 @@ src/CMakeFiles/sample_player.dir/sample_freeform_message_parser.cpp.o.provides.b
 src/CMakeFiles/sample_player.dir/sample_player.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/sample_player.cpp.o: ../src/sample_player.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object src/CMakeFiles/sample_player.dir/sample_player.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/sample_player.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/sample_player.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/sample_player.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/sample_player.cpp
 
 src/CMakeFiles/sample_player.dir/sample_player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/sample_player.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/sample_player.cpp > CMakeFiles/sample_player.dir/sample_player.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/sample_player.cpp > CMakeFiles/sample_player.dir/sample_player.cpp.i
 
 src/CMakeFiles/sample_player.dir/sample_player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/sample_player.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/sample_player.cpp -o CMakeFiles/sample_player.dir/sample_player.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/sample_player.cpp -o CMakeFiles/sample_player.dir/sample_player.cpp.s
 
 src/CMakeFiles/sample_player.dir/sample_player.cpp.o.requires:
 
@@ -1788,15 +1788,15 @@ src/CMakeFiles/sample_player.dir/sample_player.cpp.o.provides.build: src/CMakeFi
 src/CMakeFiles/sample_player.dir/strategy.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/strategy.cpp.o: ../src/strategy.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object src/CMakeFiles/sample_player.dir/strategy.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/strategy.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/strategy.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/strategy.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/strategy.cpp
 
 src/CMakeFiles/sample_player.dir/strategy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/strategy.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/strategy.cpp > CMakeFiles/sample_player.dir/strategy.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/strategy.cpp > CMakeFiles/sample_player.dir/strategy.cpp.i
 
 src/CMakeFiles/sample_player.dir/strategy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/strategy.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/strategy.cpp -o CMakeFiles/sample_player.dir/strategy.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/strategy.cpp -o CMakeFiles/sample_player.dir/strategy.cpp.s
 
 src/CMakeFiles/sample_player.dir/strategy.cpp.o.requires:
 
@@ -1812,15 +1812,15 @@ src/CMakeFiles/sample_player.dir/strategy.cpp.o.provides.build: src/CMakeFiles/s
 src/CMakeFiles/sample_player.dir/main_player.cpp.o: src/CMakeFiles/sample_player.dir/flags.make
 src/CMakeFiles/sample_player.dir/main_player.cpp.o: ../src/main_player.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object src/CMakeFiles/sample_player.dir/main_player.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/main_player.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/main_player.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_player.dir/main_player.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/src/main_player.cpp
 
 src/CMakeFiles/sample_player.dir/main_player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_player.dir/main_player.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/main_player.cpp > CMakeFiles/sample_player.dir/main_player.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/src/main_player.cpp > CMakeFiles/sample_player.dir/main_player.cpp.i
 
 src/CMakeFiles/sample_player.dir/main_player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_player.dir/main_player.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/main_player.cpp -o CMakeFiles/sample_player.dir/main_player.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/src/main_player.cpp -o CMakeFiles/sample_player.dir/main_player.cpp.s
 
 src/CMakeFiles/sample_player.dir/main_player.cpp.o.requires:
 

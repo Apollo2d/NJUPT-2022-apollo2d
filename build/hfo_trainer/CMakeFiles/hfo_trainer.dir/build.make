@@ -60,15 +60,15 @@ include hfo_trainer/CMakeFiles/hfo_trainer.dir/flags.make
 hfo_trainer/CMakeFiles/hfo_trainer.dir/hfo_param.cpp.o: hfo_trainer/CMakeFiles/hfo_trainer.dir/flags.make
 hfo_trainer/CMakeFiles/hfo_trainer.dir/hfo_param.cpp.o: ../hfo_trainer/hfo_param.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object hfo_trainer/CMakeFiles/hfo_trainer.dir/hfo_param.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/hfo_trainer && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hfo_trainer.dir/hfo_param.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/hfo_trainer/hfo_param.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/hfo_trainer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hfo_trainer.dir/hfo_param.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/hfo_trainer/hfo_param.cpp
 
 hfo_trainer/CMakeFiles/hfo_trainer.dir/hfo_param.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hfo_trainer.dir/hfo_param.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/hfo_trainer && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/hfo_trainer/hfo_param.cpp > CMakeFiles/hfo_trainer.dir/hfo_param.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/hfo_trainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/hfo_trainer/hfo_param.cpp > CMakeFiles/hfo_trainer.dir/hfo_param.cpp.i
 
 hfo_trainer/CMakeFiles/hfo_trainer.dir/hfo_param.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hfo_trainer.dir/hfo_param.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/hfo_trainer && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/hfo_trainer/hfo_param.cpp -o CMakeFiles/hfo_trainer.dir/hfo_param.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/hfo_trainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/hfo_trainer/hfo_param.cpp -o CMakeFiles/hfo_trainer.dir/hfo_param.cpp.s
 
 hfo_trainer/CMakeFiles/hfo_trainer.dir/hfo_param.cpp.o.requires:
 
@@ -84,15 +84,15 @@ hfo_trainer/CMakeFiles/hfo_trainer.dir/hfo_param.cpp.o.provides.build: hfo_train
 hfo_trainer/CMakeFiles/hfo_trainer.dir/hfo_trainer.cpp.o: hfo_trainer/CMakeFiles/hfo_trainer.dir/flags.make
 hfo_trainer/CMakeFiles/hfo_trainer.dir/hfo_trainer.cpp.o: ../hfo_trainer/hfo_trainer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object hfo_trainer/CMakeFiles/hfo_trainer.dir/hfo_trainer.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/hfo_trainer && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hfo_trainer.dir/hfo_trainer.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/hfo_trainer/hfo_trainer.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/hfo_trainer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hfo_trainer.dir/hfo_trainer.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/hfo_trainer/hfo_trainer.cpp
 
 hfo_trainer/CMakeFiles/hfo_trainer.dir/hfo_trainer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hfo_trainer.dir/hfo_trainer.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/hfo_trainer && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/hfo_trainer/hfo_trainer.cpp > CMakeFiles/hfo_trainer.dir/hfo_trainer.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/hfo_trainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/hfo_trainer/hfo_trainer.cpp > CMakeFiles/hfo_trainer.dir/hfo_trainer.cpp.i
 
 hfo_trainer/CMakeFiles/hfo_trainer.dir/hfo_trainer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hfo_trainer.dir/hfo_trainer.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/hfo_trainer && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/hfo_trainer/hfo_trainer.cpp -o CMakeFiles/hfo_trainer.dir/hfo_trainer.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/hfo_trainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/hfo_trainer/hfo_trainer.cpp -o CMakeFiles/hfo_trainer.dir/hfo_trainer.cpp.s
 
 hfo_trainer/CMakeFiles/hfo_trainer.dir/hfo_trainer.cpp.o.requires:
 
@@ -108,15 +108,15 @@ hfo_trainer/CMakeFiles/hfo_trainer.dir/hfo_trainer.cpp.o.provides.build: hfo_tra
 hfo_trainer/CMakeFiles/hfo_trainer.dir/main_trainer.cpp.o: hfo_trainer/CMakeFiles/hfo_trainer.dir/flags.make
 hfo_trainer/CMakeFiles/hfo_trainer.dir/main_trainer.cpp.o: ../hfo_trainer/main_trainer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kawhicurry/Desktop/robocup/helios-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object hfo_trainer/CMakeFiles/hfo_trainer.dir/main_trainer.cpp.o"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/hfo_trainer && /usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hfo_trainer.dir/main_trainer.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/hfo_trainer/main_trainer.cpp
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/hfo_trainer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hfo_trainer.dir/main_trainer.cpp.o -c /home/kawhicurry/Desktop/robocup/helios-base/hfo_trainer/main_trainer.cpp
 
 hfo_trainer/CMakeFiles/hfo_trainer.dir/main_trainer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hfo_trainer.dir/main_trainer.cpp.i"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/hfo_trainer && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/hfo_trainer/main_trainer.cpp > CMakeFiles/hfo_trainer.dir/main_trainer.cpp.i
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/hfo_trainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kawhicurry/Desktop/robocup/helios-base/hfo_trainer/main_trainer.cpp > CMakeFiles/hfo_trainer.dir/main_trainer.cpp.i
 
 hfo_trainer/CMakeFiles/hfo_trainer.dir/main_trainer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hfo_trainer.dir/main_trainer.cpp.s"
-	cd /home/kawhicurry/Desktop/robocup/helios-base/build/hfo_trainer && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/hfo_trainer/main_trainer.cpp -o CMakeFiles/hfo_trainer.dir/main_trainer.cpp.s
+	cd /home/kawhicurry/Desktop/robocup/helios-base/build/hfo_trainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kawhicurry/Desktop/robocup/helios-base/hfo_trainer/main_trainer.cpp -o CMakeFiles/hfo_trainer.dir/main_trainer.cpp.s
 
 hfo_trainer/CMakeFiles/hfo_trainer.dir/main_trainer.cpp.o.requires:
 
