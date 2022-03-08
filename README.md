@@ -19,11 +19,12 @@
 cd /path/to/this/README.md
 ```
 
-3. 本工程提供了三个脚本，分别提供了构建代码，运行代码，终止比赛三个功能。
+3. 本工程提供了四个脚本，分别提供了构建代码，运行代码，终止比赛，分析数据四个功能。
 ```bash
 ./build.sh
 ./run.sh
 ./kill.sh
+./parse.sh
 ```
 
 4. 修改完成后，首先在本地进行commit操作（推荐多次commit来记录你的修改过程），然后push到你自己的远程仓库后，点击左侧合并请求（merge requests），然后new merge requests。在右侧的target branch中将分支名（可能为master）改为你自己的名字，若没有你的名字，请联系管理员新建一个。
@@ -40,8 +41,8 @@ cd /path/to/this/README.md
 
 运行后，球员的输出会导入到`player.log`中，比赛结果的原本输出会导入到`raw_result.log`中。
 
-使用`kill.sh`之后，`result.log`中会生成每次接球的数据，分别为接球次数，开球时间和结束的时间，以`@`进行分割。
+如果你在`run.sh`中指定了`trials`，那就无需手动使用`kill.sh`。使用`kill.sh`之后，`result.log`中会生成每次接球的数据，分别为接球次数、接到球的时间，以`@`进行分割。
 
-文件的末尾有当前代码的成果，你可以执行`./parse.sh`再次查看该结果。
+指定trials后有当前代码的成果，你可以执行`./parse.sh`再次查看该结果。
 
 **注意**第一次接球是无效的。
