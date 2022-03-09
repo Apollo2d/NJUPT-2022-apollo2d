@@ -4,9 +4,9 @@
 echo "Preparing..."
 
 # 监控参数
-monitor="soccerwindow2" # "soccerwindow2" or "rcssmonitor"
-synch=off               # 启用加速功能 off为关闭
-trials=100              # 最大训练次数,0为不开启,注意第一次是无效的
+monitor="rcssmonitor" # "soccerwindow2" or "rcssmonitor"
+synch=off             # 启用加速功能 off为关闭
+trials=100            # 最大训练次数,0为不开启,注意第一次是无效的
 
 # 球和球员的参数
 ball_pos_x="-20.0"
@@ -39,7 +39,7 @@ func_exit() {
     exit
 }
 
-trap "func_exit" SIGINT SIGTERM
+trap "func_exit" SIGINT SIGTERM SIGHUP
 
 opt="--ball-pos-x=${ball_pos_x} --ball-pos-y=${ball_pos_y}"
 opt="${opt} --ball-vel-x=${ball_vel_x} --ball-vel-y=${ball_vel_y}"
