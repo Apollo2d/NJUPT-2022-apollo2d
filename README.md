@@ -12,7 +12,7 @@
 推荐使用[脚本安装](https://gitee.com/apollo-2d/Apollo_env_install)
 
 ## 如何开始
-1. 首先点击gitlab右上角的fork按钮，然后在命名空间（namespace）中选择你自己的账号名，其余随意，然后点击确定。这将复制一份本仓库的代码到你自己的账号中，然后打开你在ubuntu本地的终端，使用git clone 你自己仓库的url。
+1. 打开[本仓库](https://gitlab.com/Apollo-2d/apollo2d-2022/njupt-2022-apollo-2-d),然后clone至本地
 
 2. cd至本文档所在目录（下面这条请不要直接复制粘贴！）
 ```bash
@@ -39,9 +39,9 @@ cd /path/to/this/README.md
 
 运行后，球员的输出会导入到`player.log`中，比赛结果的原本输出会导入到`raw_result.log`中。
 
-如果你在`run.sh`中指定了`trials`，那就无需手动使用`kill.sh`。使用`kill.sh`之后，`result.log`中会生成每次接球的数据，分别为接球次数、接到球的时间，以`@`进行分割。
+~~如果你在`run.sh`中指定了`trials`，那就无需手动使用`kill.sh`。使用`kill.sh`之后，`result.log`中会生成每次接球的数据，分别为接球次数、接到球的时间，以`@`进行分割。~~ 现在`run.sh`会自动结束比赛，无需手动执行`kill.sh`
 
-指定trials后有当前代码的成果，你可以执行`./parse.sh`再次查看该结果。
+执行`./parse.sh`可以获得从`./raw_result.log`中读取比赛结果并分析数据，同时初步分析的数据会导出至`./result.log`。
 
 **注意**第一次接球是无效的。
 
