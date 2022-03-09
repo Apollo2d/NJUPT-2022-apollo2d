@@ -4,29 +4,29 @@
 echo "Preparing..."
 
 # 监控参数
-monitor="rcssmonitor" # "soccerwindow2" or "rcssmonitor"
-synch=on              # 启用加速功能 off为关闭
-trials=100            # 最大训练次数,0为不开启,注意第一次是无效的
+monitor="soccerwindow2" # "soccerwindow2" or "rcssmonitor"
+synch=off               # 启用加速功能 off为关闭
+trials=100              # 最大训练次数,0为不开启,注意第一次是无效的
 
 # 球和球员的参数
-ball_pos_x="1.0"
-ball_pos_y="0.0"
-ball_vel_x="2.0"
-ball_vel_y="0.0"
-player_pos_x="20.0"
-player_pos_y="20.0"
+ball_pos_x="-20.0"
+ball_pos_y="20.0"
+ball_vel_x="0.0"
+ball_vel_y="-2.0"
+# player_pos_x="0.0" # 现在不建议修改球员的位置
+# player_pos_y="0.0"
 
 # 执行部分，不建议修改----------------------------------------------------
 
-if [ $# -eq 7 ]; then
+if [ $# -eq 5 ]; then
     synch=on
     ball_pos_x=$1
     ball_pos_y=$2
     ball_vel_x=$3
     ball_vel_y=$4
-    player_pos_x=$5
-    player_pos_y=$6
-    trials=$7
+    # player_pos_x=$5
+    # player_pos_y=$6
+    trials=$5
 fi
 
 func_exit() {

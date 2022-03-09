@@ -312,7 +312,6 @@ void HFOTrainer::doHFO() {
   if (!M_episode &&
       (world().playersLeft().size() == M_hfo_param.M_hfo_offense_player) &&
       (world().playersRight().size() == M_hfo_param.M_hfo_defense_player)) {
-    doChangeMode(PM_PlayOn);
     initHFO();
   }
   analyse();
@@ -349,7 +348,8 @@ void HFOTrainer::initHFO() {
     std::cout << "Begin HFO" << std::endl;
   }
   M_episode++;
-  resetField();
+  doChangeMode(PM_PlayOn);
+  M_episode_over_time = 1;
 }
 
 /*-------------------------------------------------------------------*/
@@ -375,7 +375,7 @@ void HFOTrainer::analyse() {
       std::cout << M_episode << "@"
                 << M_episode_over_time - M_episode_begin_time << std::endl;
     }
-    if (wm.time().stopped() > 10) {
+    if (wm.time().stopped() > 20) {
       //等待10个周期后才开始比赛
       doChangeMode(PM_PlayOn);
       M_episode_over_time = 0;
@@ -398,10 +398,10 @@ void HFOTrainer::analyse() {
       char gMsg[32];
       sprintf(gMsg, "%s-%d", M_hfo_param.goalMsg, M_holder_unum);
       M_episode_over_time = wm.time().cycle();
-    } else if (!(inHFOArea(wm.ball().pos()))) {
-      //判断是否在HFO（规定的）范围内
-      // oobMsg
-      M_episode_over_time = wm.time().cycle();
+      // } else if (!(inHFOArea(wm.ball().pos()))) {
+      //   //判断是否在HFO（规定的）范围内
+      //   // oobMsg
+      //   M_episode_over_time = wm.time().cycle();
     } else if (M_take_time >= M_hfo_param.TURNOVER_TIME) {
       //判断控球时间是否过长
       // capMsg
@@ -462,10 +462,10 @@ void HFOTrainer::analyse() {
 
  */
 bool HFOTrainer::inHFOArea(const Vector2D& pos) {
-  return (pos.x >= 0 &&
-          pos.x <= 0.5 * ServerParam::instance().DEFAULT_PITCH_LENGTH &&
-          std::fabs(pos.y) <=
-              0.5 * ServerParam::instance().DEFAULT_PITCH_WIDTH);
+  // return (pos.x >= 0 &&
+  //         pos.x <= 0.5 * ServerParam::instance().DEFAULT_PITCH_LENGTH &&
+  //         std::fabs(pos.y) <=
+  //             0.5 * ServerParam::instance().DEFAULT_PITCH_WIDTH);
 }
 
 /*-------------------------------------------------------------------*/

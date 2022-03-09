@@ -40,10 +40,10 @@ HFOParam::HFOParam()
       M_hfo_min_ball_vel_y(0.0),
       M_hfo_max_ball_vel_y(0),
 
-      M_hfo_min_player_pos_x(0.1),
-      M_hfo_max_player_pos_x(0.1),
+      M_hfo_min_player_pos_x(0.0),
+      M_hfo_max_player_pos_x(0.0),
       M_hfo_min_player_pos_y(0.0),
-      M_hfo_max_player_pos_y(0.5),
+      M_hfo_max_player_pos_y(0.0),
 
       M_hfo_logging(HFO_LOGGING),
       M_hfo_log_dir(HFO_LOG_DIR),
