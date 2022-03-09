@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Begin"
+echo "Preparing..."
 
 # 监控参数
 monitor="rcssmonitor" # "soccerwindow2"
@@ -16,6 +16,17 @@ player_pos_x="20.0"
 player_pos_y="20.0"
 
 # 执行部分，不建议修改----------------------------------------------------
+
+if [ $# -eq 7 ]; then
+    synch=on
+    ball_pos_x=$1
+    ball_pos_y=$2
+    ball_vel_x=$3
+    ball_vel_y=$4
+    player_pos_x=$5
+    player_pos_y=$6
+    trials=$7
+fi
 
 func_exit() {
     ./kill.sh
@@ -42,12 +53,12 @@ sleep 1
 sleep 1
 ./build/src/sample_player --config_dir=./build/src/formations-dt &>./player.log &
 
-echo "Running"
+echo "Running..."
 echo "Use [Ctrl]+c to stop at any time"
 while true; do
     if [ ! $(pidof helios-base_hfo_trainer) ]; then
         func_exit
     fi
     echo -en "$(grep -c @ raw_result.log)/${trials}\r"
-    sleep 1
+    sleep 0.1
 done
