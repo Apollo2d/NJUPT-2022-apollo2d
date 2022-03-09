@@ -1,10 +1,11 @@
 #!/bin/bash
+# set -x
 
 echo "Preparing..."
 
 # 监控参数
-monitor="rcssmonitor" # "soccerwindow2"
-synch=off             # 启用加速功能 off为关闭
+monitor="rcssmonitor" # "soccerwindow2" or "rcssmonitor"
+synch=on              # 启用加速功能 off为关闭
 trials=100            # 最大训练次数,0为不开启,注意第一次是无效的
 
 # 球和球员的参数
@@ -29,7 +30,10 @@ if [ $# -eq 7 ]; then
 fi
 
 func_exit() {
-    ./kill.sh
+    kill -2 $(pidof rcssserver) &>/dev/null
+    kill -9 $(echo ${monitor} | xargs pidof) &>/dev/null
+    sleep 1
+    rm *.rcg *.rcl
     ./parse.sh
     echo "Game Done"
     exit
@@ -46,7 +50,7 @@ fi
 
 rcssserver server::coach=on server::synch_mode=${synch} &>/dev/null &
 if [ ! $(pidof ${monitor}) ]; then
-    $monitor &>/dev/null &
+    $monitor -c &>/dev/null &
 fi
 sleep 1
 ./build/helios-base_hfo_trainer ${opt} &>./raw_result.log &
