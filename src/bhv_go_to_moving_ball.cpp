@@ -41,17 +41,24 @@
 
 using namespace rcsc;
 
+#define ORIGIN
+
 /*-------------------------------------------------------------------*/
 /*!
 
 */
 bool Bhv_GoToMovingBall::execute(PlayerAgent* agent) {
+#ifdef ORIGIN
   const WorldModel& wm = agent->world();
   if (wm.ball().posValid()) {
     agent->doDash(ServerParam::i().maxDashPower(), wm.ball().angleFromSelf());
-    agent->setNeckAction(new Neck_TurnToBall());
-  } else {
     agent->setNeckAction(new Neck_TurnToBallOrScan(0));
   }
   return true;
+#else
+  //
+  // 在这里添加你的代码
+  //
+
+#endif
 }
