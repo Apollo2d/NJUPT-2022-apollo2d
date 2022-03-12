@@ -98,6 +98,7 @@ while (($Line > 1)); do
     echo "Running group $group"
     echo "ball_pos_x:$ball_pos_x ball_pos_y:$ball_pos_y ball_vel_x:$ball_vel_x ball_vel_y:$ball_vel_y" >>$log
     run $ball_pos_x $ball_pos_y $ball_vel_x $ball_vel_y $default_trials on
+    sleep 2
     ./parse.sh >>$log
 done
 
