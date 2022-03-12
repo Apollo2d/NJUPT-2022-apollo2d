@@ -43,6 +43,7 @@ run() {
         done
         echo "#$ball_pos_x#$ball_pos_y#$ball_vel_x#$ball_vel_y" >>$raw_log
         grep @ ./raw_result.log >>$raw_log
+        echo -e "\n" >>$raw_log
         echo "Game Done"
     }
 
