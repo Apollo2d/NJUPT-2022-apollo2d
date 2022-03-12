@@ -12,6 +12,7 @@ if [ ! -d log/gameLog ]; then
 fi
 
 log=./log/$(date +%Y%m%d%H%M%S).log
+raw_log=./log/$(date +%Y%m%d%H%M%S).raw.log
 
 func_exit() {
     kill -9 $(echo ${monitor} | xargs pidof) &>/dev/null
@@ -40,7 +41,8 @@ run() {
         while [ $(pidof rcssserver) ]; do
             sleep 1
         done
-        # mv *.rcg *.rcl ./log/gameLog
+        echo "#$ball_pos_x#$ball_pos_y#$ball_vel_x#$ball_vel_y" >>$raw_log
+        grep @ ./raw_result.log >>$raw_log
         echo "Game Done"
     }
 
@@ -86,7 +88,6 @@ if [ $# -eq 2 ]; then
     echo "ball_pos_x:$ball_pos_x ball_pos_y:$ball_pos_y ball_vel_x:$ball_vel_x ball_vel_y:$ball_vel_y" >>$log
     run $ball_pos_x $ball_pos_y $ball_vel_x $ball_vel_y $default_trials $2
     ./parse.sh >>$log
-
     func_exit
 fi
 
@@ -98,7 +99,6 @@ while (($Line > 1)); do
     echo "Running group $group"
     echo "ball_pos_x:$ball_pos_x ball_pos_y:$ball_pos_y ball_vel_x:$ball_vel_x ball_vel_y:$ball_vel_y" >>$log
     run $ball_pos_x $ball_pos_y $ball_vel_x $ball_vel_y $default_trials on
-    sleep 2
     ./parse.sh >>$log
 done
 
