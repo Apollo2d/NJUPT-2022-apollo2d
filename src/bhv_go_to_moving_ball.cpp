@@ -53,6 +53,8 @@ bool Bhv_GoToMovingBall::execute(PlayerAgent* agent) {
   if (wm.ball().posValid()) {
     agent->doDash(ServerParam::i().maxDashPower(), wm.ball().angleFromSelf());
     agent->setNeckAction(new Neck_TurnToBallOrScan(0));
+  } else {
+    agent->setNeckAction(new Neck_ScanField());
   }
   return true;
 #else

@@ -1,1 +1,1 @@
-grep -E '@' ./raw_result.log | tee ./result.log | awk -F "@" 'BEGIN {max=0;min=65536} NR!=1{sum+=$2;if($2>max)max=$2;if($2<min)min=$2} END {print "Catch times: " NR-1 "\nAverage cycle: " sum/(NR-1) "\nMax cycle: " max "\nMin cycle: " min}'
+grep -E '@' ./raw_result.log | tee ./result.log | awk -F "@" 'BEGIN {max=0;min=65536} NR!=1{sum+=$2;if($2>max)max=$2;if($2<min)min=$2} END {print "Times: " NR-1 "\tAverage: " sum/(NR-1) "\tMax: " max "\tMin: " min}'

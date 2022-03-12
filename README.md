@@ -53,3 +53,7 @@ cd /path/to/this/README.md
 
 ## 如何测试代码
 在`para.sh`中按照格式写入参数，然后运行`autotest.sh`，在`log`文件夹中查看运行结果。
+
+如果想要查看某个数据的运行情况，可以运行`autotest.sh [group number] [on|off]`。如，想要以不开启同步的方式查看第2组数据，只需`autotest.sh 2 off`。
+
+**注意**：两个参数缺一不可。

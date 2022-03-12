@@ -1,6 +1,9 @@
 #!/bin/bash
 # set -x
 
+monitor=soccerwindow2
+default_trials=100
+
 if [ ! -d log ]; then
     mkdir log
 fi
@@ -11,21 +14,24 @@ fi
 log=./log/$(date +%Y%m%d%H%M%S).log
 
 func_exit() {
-    tar -cvzf ./log/gameLog/$(date +%Y%m%d%H%M%S).rcg.tar.gz ./*.rcg --remove-files
-    tar -cvzf ./log/gameLog/$(date +%Y%m%d%H%M%S).rcl.tar.gz ./*.rcl --remove-files
+    kill -9 $(echo ${monitor} | xargs pidof) &>/dev/null
+    tar -cvzf ./log/gameLog/$(date +%Y%m%d%H%M%S).rcg.tar.gz ./*.rcg --remove-files &>/dev/null
+    tar -cvzf ./log/gameLog/$(date +%Y%m%d%H%M%S).rcl.tar.gz ./*.rcl --remove-files &>/dev/null
     rm *.log
+    echo -e "Train Done----------------------------------------"
+    cat $log | grep Average -B 1 --color=auto
+    echo -e "Check $log to see the result again"
     exit 0
-
 }
 
 run() {
-    if [ $# -eq 5 ]; then
-        synch=on
+    if [ $# -eq 6 ]; then
         ball_pos_x=$1
         ball_pos_y=$2
         ball_vel_x=$3
         ball_vel_y=$4
         trials=$5
+        synch=$6
     fi
 
     func_exit0() {
@@ -71,6 +77,19 @@ run() {
 
 trap "func_exit" SIGINT SIGTERM SIGHUP
 
+if [ $# -eq 2 ]; then
+    Line=$1
+    let "Line++"
+    eval $(awk -F ',' 'NR=="'$Line'"{printf("group=%s; ball_pos_x=%s; ball_pos_y=%s; ball_vel_x=%s; ball_vel_y=%s",$1,$2,$3,$4,$5)}' para.csv)
+    let "Line--"
+    echo "Running group $group"
+    echo "ball_pos_x:$ball_pos_x ball_pos_y:$ball_pos_y ball_vel_x:$ball_vel_x ball_vel_y:$ball_vel_y" >>$log
+    run $ball_pos_x $ball_pos_y $ball_vel_x $ball_vel_y $default_trials $2
+    ./parse.sh >>$log
+
+    func_exit
+fi
+
 Line=$(cat para.csv | wc -l)
 let "Line++"
 while (($Line > 1)); do
@@ -78,12 +97,8 @@ while (($Line > 1)); do
     let "Line--"
     echo "Running group $group"
     echo "ball_pos_x:$ball_pos_x ball_pos_y:$ball_pos_y ball_vel_x:$ball_vel_x ball_vel_y:$ball_vel_y" >>$log
-    run $ball_pos_x $ball_pos_y $ball_vel_x $ball_vel_y 50
+    run $ball_pos_x $ball_pos_y $ball_vel_x $ball_vel_y $default_trials on
     ./parse.sh >>$log
 done
 
 func_exit
-
-cat $log
-
-echo -e "Check $log to see the result"
