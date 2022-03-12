@@ -50,3 +50,6 @@ cd /path/to/this/README.md
 首先在脚本`push.sh`中的第一行`name=`后面写上自己的名字的缩写，如lyb。
 
 然后执行`./push.sh`即可
+
+## 如何测试代码
+在`para.sh`中按照格式写入参数，然后运行`autotest.sh`，在`log`文件夹中查看运行结果。

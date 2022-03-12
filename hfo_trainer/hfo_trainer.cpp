@@ -373,7 +373,8 @@ void HFOTrainer::analyse() {
       doChangeMode(PM_BeforeKickOff);
       resetField();
       std::cout << M_episode << "@"
-                << M_episode_over_time - M_episode_begin_time << std::endl;
+                << M_episode_over_time - M_episode_begin_time << "@"
+                << M_episode_begin_time << std::endl;
     }
     if (wm.time().stopped() > 20) {
       //等待10个周期后才开始比赛

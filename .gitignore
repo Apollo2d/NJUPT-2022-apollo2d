@@ -7,4 +7,5 @@ train.sh
 
 .vscode/
 build/
+log/
 *.log
