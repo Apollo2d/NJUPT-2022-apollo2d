@@ -1,5 +1,5 @@
 #!/bin/bash
-set -x
+# set -x
 
 if [ ! -d log ]; then
     mkdir log
@@ -83,5 +83,7 @@ while (($Line > 1)); do
 done
 
 func_exit
+
+cat $log
 
 echo -e "Check $log to see the result"
