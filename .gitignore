@@ -6,6 +6,10 @@ start.sh
 train.sh
 
 .vscode/
+FinalTest/
 build/
+logs/
 log/
+teams/
 *.log
+*.png
