@@ -10,9 +10,9 @@ set yrange [1:]
 set xrange [5:]
 set palette rgbformulae 33,13,10
 
-cd "logs"
-Lines=system("ls")
+Lines=system("ls -d */")
 do for [Line in Lines]{
+    print Line
     cd Line
     files=system("ls")
     set title Line

@@ -11,9 +11,7 @@ set grid front
 set yrange [0:120]
 set xrange [:]
 
-
-cd "logs"
-Lines=system("ls")
+Lines=system("ls -d */")
 do for [Line in Lines]{
     cd Line
     set title Line

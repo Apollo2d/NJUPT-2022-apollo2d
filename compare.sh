@@ -3,14 +3,16 @@
 
 default_trials=1000
 teams=(master jmh lc lxy yhw ysy zk)
-# teams=(zk)
 git_url=git@gitlab.com:Apollo-2d/apollo2d-2022/njupt-2022-apollo-2-d.git
 
 cur_dir=$(dirname $(readlink -f $0))
 src_dir=$cur_dir/FinalTest
 teams_dir=$cur_dir/teams
-log_dir=$cur_dir/logs
+log_dir=$cur_dir/logs/$(date +%Y%m%d%H%M%S)
+
 result_log=$cur_dir/final.log
+
+para_file=$cur_dir/para.csv
 
 trap "exit" SIGINT SIGTERM SIGHUP
 
@@ -45,10 +47,10 @@ build() {
         exit
     fi
     if [ ! -d $teams_dir ]; then
-        mkdir $teams_dir
+        mkdir -p $teams_dir
     fi
     if [ ! -d $log_dir ]; then
-        mkdir $log_dir
+        mkdir -p $log_dir
     fi
     if [ $1 ]; then
         cd $src_dir
@@ -69,28 +71,27 @@ build() {
 }
 
 parse() {
+    if [ $1 ]; then
+        log_dir=$1
+    fi
     cd $log_dir
-    for dir in $(ls); do
+    result=$(find . -name result.log)
+    if [ $result ]; then
+        rm $result
+    fi
+    gnuplot $cur_dir/frequency.gp
+    for dir in $(ls -d */); do
         cd $dir
         for log in $(ls); do
             awk -F "@" 'BEGIN {max=0;min=65536} NR!=1{a[++i]=$2;if($2>max)max=$2;if($2<min)min=$2} END {for(i in a)sum += a[i];ave=sum/NR;for(i in a) delta += (a[i]-ave)*(a[i]-ave);print "'$log'" " " min " " sum/(NR-1) " " max " " delta/NR}' $log >>./result.log
-
         done
         cd ..
     done
-    cd $cur_dir
-    gnuplot column.gp
-    cd $log_dir
-    for dir in $(ls); do
-        cd $dir
-        rm result.log
-        cd ..
-    done
-    cd $cur_dir
-    gnuplot frequency.gp
+    gnuplot $cur_dir/column.gp
 }
 
 test() {
+    clean
     Apollo_prompt
     run() {
         local ball_pos_x=$1
@@ -148,23 +149,23 @@ test() {
     if [ $1 ]; then
         Lines=$1
     else
-        i=$(grep -c , para.csv)
-        while [ $i -gt 1 ]; do
-            Lines[i]=$i
+        i=$(grep -c , $para_file)
+        while [ $i -gt 0 ]; do
             ((i--))
+            Lines[i]=$i
         done
     fi
     if [ ! -d $log_dir ]; then
-        mkdir $log_dir
+        mkdir -p $log_dir
     fi
 
     echo "Repetition Maximum: $default_trials"
     for Line in ${Lines[*]}; do
         if [ ! -d $log_dir/$Line ]; then
-            mkdir $log_dir/$Line
+            mkdir -p $log_dir/$Line
         fi
         let "Line++"
-        eval $(awk -F ',' 'NR=="'$Line'"{printf("group=%s; ball_pos_x=%s; ball_pos_y=%s; ball_vel_x=%s; ball_vel_y=%s",$1,$2,$3,$4,$5)}' para.csv)
+        eval $(awk -F ',' 'NR=="'$Line'"{printf("group=%s; ball_pos_x=%s; ball_pos_y=%s; ball_vel_x=%s; ball_vel_y=%s",$1,$2,$3,$4,$5)}' "$para_file")
         let "Line--"
         echo -e "\033[36m====================Begin test Line:$Line==============================\033[0m"
         echo -e "ball_pos_x:$ball_pos_x ball_pos_y:$ball_pos_y ball_vel_x:$ball_vel_x ball_vel_y:$ball_vel_y"
@@ -173,21 +174,20 @@ test() {
         done
         echo -e "\033[32m====================End test Line:$Line================================\033[0m"
     done
+    cd $cur_dir
     rm $cur_dir/*rcg $cur_dir/*rcl
-    parse
+    parse 2>/dev/null
 }
 
 clean() {
-    rm -rf $cur_dir/logs
     rm $cur_dir/*rcg
     rm $cur_dir/*rcl
     rm $cur_dir/*log
 }
 
 if [ $1 ]; then
-    $1 $2 $3 2>/dev/null
+    $1 $2 $3 # 2>/dev/null
     exit
+else
+    test #2>/dev/null
 fi
-
-Apollo_prompt
-test 2>/dev/null
