@@ -1,7 +1,9 @@
 #!/bin/bash
 # set -x
 
-default_trials=100
+default_trials=10
+teams=(jmh lxy master ysy)
+git_url=git@gitlab.com:Apollo-2d/apollo2d-2022/njupt-2022-apollo-2-d.git
 
 cur_dir=$(dirname $(readlink -f $0))
 src_dir=$cur_dir/FinalTest
@@ -10,9 +12,24 @@ log_dir=$cur_dir/logs
 
 trap "exit" SIGINT SIGTERM SIGHUP
 
+Apollo_prompt() {
+    printf '%-50s\n' "--------------------------------------------------------------------------------"
+    printf '\033[34m%-50s\033[0m %-30s\n' "Apollo2D@copyright."
+    printf '\033[34m%-50s\033[0m %-30s\n' "Contact me with kawhicurry@foxmail.com if there's any problem"
+    printf '%3s \033[32m%11s\033[0m %25s\n' "Try " "./compare help" " to check more information"
+    printf '%-50s\n' "--------------------------------------------------------------------------------"
+}
+
+help() {
+    echo -e "update : update branch from remote"
+    echo -e "build  : build teams with git branches"
+    echo -e "test   : test code and get effection from it"
+    echo -e "parse  : parse the result and get png files to analyse"
+}
+
 update() {
     if [ ! -d $src_dir ]; then
-        git clone git@gitlab.com:Apollo-2d/apollo2d-2022/njupt-2022-apollo-2-d.git $src_dir
+        git clone $git_url $src_dir
     fi
     cd $src_dir
     git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
@@ -49,6 +66,27 @@ build() {
     done
 }
 
+parse() {
+    cd $log_dir
+    for dir in $(ls); do
+        cd $dir
+        for log in $(ls); do
+            awk -F "@" 'BEGIN {max=0;min=65536} NR!=1{a[++i]=$2;if($2>max)max=$2;if($2<min)min=$2} END {for(i in a)sum += a[i];ave=sum/NR;for(i in a) delta += (a[i]-ave)*(a[i]-ave);print "'$log'" " " min " " sum/(NR-1) " " max " " delta/NR}' $log >>./result.log
+        done
+        cd ..
+    done
+    cd $cur_dir
+    gnuplot column.gp
+    cd $log_dir
+    for dir in $(ls); do
+        cd $dir
+        rm result.log
+        cd ..
+    done
+    cd ..
+    gnuplot frequency.gp
+}
+
 test() {
     run() {
         local ball_pos_x=$1
@@ -66,10 +104,10 @@ test() {
             done
             touch $log_dir/$line/$team.log
             grep @ $cur_dir/raw_result.log >$log_dir/$line/$team.log
-            echo "$team Done"
+            echo "Finish  $team"
         }
 
-        trap "func_exit0" SIGINT SIGTERM SIGHUP
+        # trap "func_exit0" SIGINT SIGTERM SIGHUP
 
         opt="--ball-pos-x=${ball_pos_x} --ball-pos-y=${ball_pos_y}"
         opt="${opt} --ball-vel-x=${ball_vel_x} --ball-vel-y=${ball_vel_y}"
@@ -95,11 +133,13 @@ test() {
 
     cd $cur_dir
     i=0
-    # for team in $(ls .git/refs/heads); do
-    #     teams[i]=$team
-    #     ((i++))
-    # done
-    teams=(jmh lxy master ysy)
+    if [ x$teams = x ]; then
+        for team in $(ls .git/refs/heads); do
+            teams[i]=$team
+            ((i++))
+        done
+    fi
+
     Lines=1
     if [ $1 ]; then
         Lines=$1
@@ -114,6 +154,7 @@ test() {
         mkdir $log_dir
     fi
 
+    echo "Repetition Maximum: $default_trials"
     for Line in ${Lines[*]}; do
         if [ ! -d $log_dir/$Line ]; then
             mkdir $log_dir/$Line
@@ -121,49 +162,28 @@ test() {
         let "Line++"
         eval $(awk -F ',' 'NR=="'$Line'"{printf("group=%s; ball_pos_x=%s; ball_pos_y=%s; ball_vel_x=%s; ball_vel_y=%s",$1,$2,$3,$4,$5)}' para.csv)
         let "Line--"
-        echo "Begin testing $Line with:"
-        echo "ball_pos_x:$ball_pos_x ball_pos_y:$ball_pos_y ball_vel_x:$ball_vel_x ball_vel_y:$ball_vel_y"
+        echo -e "\033[36m====================Begin test Line:$Line==============================\033[0m"
+        echo -e "ball_pos_x:$ball_pos_x ball_pos_y:$ball_pos_y ball_vel_x:$ball_vel_x ball_vel_y:$ball_vel_y"
         for team in ${teams[*]}; do
             run $ball_pos_x $ball_pos_y $ball_vel_x $ball_vel_y $default_trials $team $Line
         done
+        echo -e "\033[32m====================End test Line:$Line================================\033[0m"
     done
     rm $cur_dir/*rcg $cur_dir/*rcl
+    parse
 }
 
-draw() {
-    cd $cur_dir
-    gnuplog parse.gp
-    gnuplot column.gp
+clean() {
+    rm -rf $cur_dir/logs
+    rm $cur_dir/*rcg
+    rm $cur_dir/*rcl
+    rm $cur_dir/*log
 }
 
-clean_result() {
-    cd $log_dir
-    for dir in $(ls); do
-        cd $dir
-        rm result.log
-        cd ..
-    done
-    cd ..
-}
-
-parse() {
-    cd $log_dir
-    for dir in $(ls); do
-        cd $dir
-        for log in $(ls); do
-            awk -F "@" 'BEGIN {max=0;min=65536} NR!=1{a[++i]=$2;sum+=$2;if($2>max)max=$2;if($2<min)min=$2} END {for(i in a)sum += a[i];ave=sum/NR;for(i in a) delta += (a[i]-ave)*(a[i]-ave);print "'$log'" " " max " " sum/(NR-1) " " min " " delta/NR}' $log >>./result.log
-        done
-        cd ..
-    done
-    cd $cur_dir
-    gnuplot column.gp
-    clean_result
-    gnuplot frequency.gp
-}
-
+Apollo_prompt
 if [ $1 ]; then
-    $1 $2 $3
+    $1 $2 $3 2>/dev/null
     exit
 fi
 
-test
+test 2>/dev/null
