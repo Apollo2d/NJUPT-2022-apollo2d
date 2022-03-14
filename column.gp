@@ -28,7 +28,3 @@ do for [Line in Lines]{
     cd ".."
 }
 cd ".."
-
-
-
-
