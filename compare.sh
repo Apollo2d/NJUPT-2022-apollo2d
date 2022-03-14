@@ -1,14 +1,16 @@
 #!/bin/bash
 # set -x
 
-default_trials=10
-teams=(jmh lxy master ysy)
+default_trials=1000
+teams=(master jmh lc lxy yhw ysy zk)
+# teams=(zk)
 git_url=git@gitlab.com:Apollo-2d/apollo2d-2022/njupt-2022-apollo-2-d.git
 
 cur_dir=$(dirname $(readlink -f $0))
 src_dir=$cur_dir/FinalTest
 teams_dir=$cur_dir/teams
 log_dir=$cur_dir/logs
+result_log=$cur_dir/final.log
 
 trap "exit" SIGINT SIGTERM SIGHUP
 
@@ -52,7 +54,7 @@ build() {
         cd $src_dir
         git checkout $1
         ./build.sh
-        cp -rf build/src/ $teams_dir/$branch
+        cp -rf build/src/ $teams_dir/$1
         exit
     fi
 
@@ -72,6 +74,7 @@ parse() {
         cd $dir
         for log in $(ls); do
             awk -F "@" 'BEGIN {max=0;min=65536} NR!=1{a[++i]=$2;if($2>max)max=$2;if($2<min)min=$2} END {for(i in a)sum += a[i];ave=sum/NR;for(i in a) delta += (a[i]-ave)*(a[i]-ave);print "'$log'" " " min " " sum/(NR-1) " " max " " delta/NR}' $log >>./result.log
+
         done
         cd ..
     done
@@ -83,11 +86,12 @@ parse() {
         rm result.log
         cd ..
     done
-    cd ..
+    cd $cur_dir
     gnuplot frequency.gp
 }
 
 test() {
+    Apollo_prompt
     run() {
         local ball_pos_x=$1
         local ball_pos_y=$2
@@ -118,6 +122,7 @@ test() {
         sleep 1
         $cur_dir/build/helios-base_hfo_trainer ${opt} &>./raw_result.log &
         sleep 1
+        chmod +x $teams_dir/$team/sample_player
         $teams_dir/$team/sample_player --config_dir=$teams_dir/$team/formations-dt &>/dev/null &
 
         echo "Testing $team"
@@ -140,7 +145,6 @@ test() {
         done
     fi
 
-    Lines=1
     if [ $1 ]; then
         Lines=$1
     else
@@ -180,10 +184,10 @@ clean() {
     rm $cur_dir/*log
 }
 
-Apollo_prompt
 if [ $1 ]; then
     $1 $2 $3 2>/dev/null
     exit
 fi
 
+Apollo_prompt
 test 2>/dev/null
