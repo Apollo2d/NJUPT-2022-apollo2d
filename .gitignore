@@ -5,6 +5,7 @@ sample_trainer
 start.sh
 train.sh
 
+team-binary-2022/
 .vscode/
 FinalTest/
 build/

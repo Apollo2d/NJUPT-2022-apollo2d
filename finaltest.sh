@@ -3,12 +3,11 @@
 
 default_trials=10
 # teams=(master jmh lc lxy yhw ysy zk)
-teams=$(ls teams)
 git_url=https://gitlab.com/Apollo-2d/apollo2d-2022/njupt-2022-apollo-2-d.git
 
 cur_dir=$(dirname $(readlink -f $0))
 src_dir=$cur_dir/FinalTest
-teams_dir=$cur_dir/teams
+teams_dir=$cur_dir/team-binary-2022
 log_dir=$cur_dir/logs/$(date +%Y%m%d%H%M%S)
 
 default_para=$cur_dir/para.csv
@@ -176,7 +175,7 @@ test() {
         $cur_dir/build/helios-base_hfo_trainer ${opt} &>./raw_result.log &
         sleep 1
         chmod +x $teams_dir/$team/sample_player
-        $teams_dir/$team/sample_player --config_dir=$teams_dir/$team/formations-dt &>/dev/null &
+        $teams_dir/$team/sample_player --config_dir=$cur_dir/build/src/formations-dt &>/dev/null &
 
         echo "Testing $team"
         while true; do
@@ -189,7 +188,7 @@ test() {
         done
     }
     cd $cur_dir
-    teams=$(ls teams)
+    teams=$(ls team-binary-2022)
 
     if [ $1 ]; then
         Lines=$1
@@ -229,7 +228,7 @@ test() {
     done
     cd $cur_dir
     rm $cur_dir/*rcg $cur_dir/*rcl
-    parse 2>/dev/null
+    # parse 2>/dev/null
 }
 
 clean() {
