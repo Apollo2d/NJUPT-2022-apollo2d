@@ -10,9 +10,7 @@ src_dir=$cur_dir/FinalTest
 teams_dir=$cur_dir/teams
 log_dir=$cur_dir/logs/$(date +%Y%m%d%H%M%S)
 
-result_log=$cur_dir/final.log
-
-para_file=$cur_dir/para.csv
+default_para=$cur_dir/para.csv
 
 trap "exit" SIGINT SIGTERM SIGHUP
 
@@ -31,7 +29,7 @@ help() {
     echo -e "         build           \t: build all teams from all branch"
     echo -e "         build [name]    \t: build specific team from branch"
     echo -e "data   : check data set in picture"
-    echo -e "         data            \t: check default data set: $cur_dir/$para_file"
+    echo -e "         data            \t: check default data set: $cur_dir/$default_para"
     echo -e "         date [file]     \t: specify data set"
     echo -e "test   : test code and get effection from it"
     echo -e "test   : test            \t: test all data with all data set"
@@ -86,28 +84,34 @@ data() {
     if [ $1 ]; then
         gnuplot -e "file='$1'" situation.gp
     else
-        gnuplot -e "file='$para_file'" situation.gp
+        gnuplot -e "file='$default_para'" situation.gp
     fi
 }
 
 parse() {
     if [ $1 ]; then
-        log_dir=$1
+        log_dir=$(readlink -f $1)
     fi
     cd $log_dir
-    result=$(find . -name result.log)
+    log_name=${log_dir##*/}
+    result=$(find . -name result*.log)
     if [ $result ]; then
         rm $result
     fi
-    gnuplot $cur_dir/frequency.gp
     for dir in $(ls -d */); do
         cd $dir
+        dir_name=${dir%*/}
+        gnuplot -e "dir_name='$dir';out_file='../freq_${log_name}_${dir_name}.png'" $cur_dir/frequency.gp
         for log in $(ls); do
-            awk -F "@" 'BEGIN {max=0;min=65536} NR!=1{a[++i]=$2;if($2>max)max=$2;if($2<min)min=$2} END {for(i in a)sum += a[i];ave=sum/NR;for(i in a) delta += (a[i]-ave)*(a[i]-ave);print "'$log'" " " min " " sum/(NR-1) " " max " " delta/NR}' $log >>./result.log
+            awk -F "@" 'BEGIN {max=0;min=65536} NR!=1{a[++i]=$2;if($2>max)max=$2;if($2<min)min=$2}\
+             END {for(i in a)sum += a[i];ave=sum/NR;for(i in a) delta += (a[i]-ave)*(a[i]-ave);\
+             print "'$log'" " " min " " sum/(NR-1) " " max " " delta/NR}' $log >>../result_${log_name}_${dir_name}.log
         done
         cd ..
+        for result in $(ls result*); do
+            gnuplot -e "rst_file='$result';out_file='col_${log_name}_${dir_name}.png'" $cur_dir/column.gp
+        done
     done
-    gnuplot $cur_dir/column.gp
 }
 
 rank() {
@@ -195,7 +199,7 @@ test() {
     if [ $1 ]; then
         Lines=$1
     else
-        i=$(grep -c , $para_file)
+        i=$(grep -c , $default_para)
         while [ $i -gt 1 ]; do
             ((i--))
             Lines[i]=$i
@@ -219,7 +223,7 @@ test() {
             mkdir -p $log_dir/$Line
         fi
         let "Line++"
-        eval $(awk -F ',' 'NR=="'$Line'"{printf("group=%s; ball_pos_x=%s; ball_pos_y=%s; ball_vel_x=%s; ball_vel_y=%s",$1,$2,$3,$4,$5)}' "$para_file")
+        eval $(awk -F ',' 'NR=="'$Line'"{printf("group=%s; ball_pos_x=%s; ball_pos_y=%s; ball_vel_x=%s; ball_vel_y=%s",$1,$2,$3,$4,$5)}' "$default_para")
         let "Line--"
         echo -e "\033[36m====================Begin test Line:$Line==============================\033[0m"
         echo -e "ball_pos_x:$ball_pos_x ball_pos_y:$ball_pos_y ball_vel_x:$ball_vel_x ball_vel_y:$ball_vel_y"
