@@ -1,7 +1,7 @@
 #!/bin/bash
 # set -x
 
-default_trials=1000
+default_trials=10
 teams=(master jmh lc lxy yhw ysy zk)
 git_url=git@gitlab.com:Apollo-2d/apollo2d-2022/njupt-2022-apollo-2-d.git
 
@@ -26,9 +26,20 @@ Apollo_prompt() {
 
 help() {
     echo -e "update : update branch from remote"
+    echo -e "         update          \t: update all branches"
     echo -e "build  : build teams with git branches"
+    echo -e "         build           \t: build all teams from all branch"
+    echo -e "         build [name]    \t: build specific team from branch"
     echo -e "test   : test code and get effection from it"
+    echo -e "test   : test            \t: test all data with all data set"
+    echo -e "         test [Line]     \t: test specific data set for all teams"
+    echo -e "         E.g. test 1"
     echo -e "parse  : parse the result and get png files to analyse"
+    echo -e "         parse [log_dir] \t: parse logs in specific log directory"
+    echo -e "         E.g. parse logs/20220222222222"
+    echo -e "rank   : rank from logs"
+    echo -e "         rank [log_dir] [para] \t: 'para' includes 'min','ave','max','var'"
+    echo -e "         E.g. rank logs/3/2 ave"
 }
 
 update() {
@@ -48,9 +59,6 @@ build() {
     fi
     if [ ! -d $teams_dir ]; then
         mkdir -p $teams_dir
-    fi
-    if [ ! -d $log_dir ]; then
-        mkdir -p $log_dir
     fi
     if [ $1 ]; then
         cd $src_dir
@@ -88,6 +96,33 @@ parse() {
         cd ..
     done
     gnuplot $cur_dir/column.gp
+}
+
+rank() {
+    if [ $# -ne 2 ]; then
+        echo "need two argument"
+    fi
+    cd $cur_dir/$1
+    cd ..
+    cd $cur_dir/$1
+    order=1
+    if [ x$2 = x"min" ]; then
+        order=2n
+        echo "Rank by Minimum Cycle"
+    fi
+    if [ x$2 = x"ave" ]; then
+        order=3n
+        echo "Rank by Average Cycle"
+    fi
+    if [ x$2 = x"max" ]; then
+        order=4n
+        echo "Rank by Maxminum Cycle"
+    fi
+    if [ x$2 = x"var" ]; then
+        order=4n
+        echo "Rank by Variance Cycle"
+    fi
+    sort -k $order result.log | sed "s/ /   \t/g" | nl | sed '1i\Rank\tName    \tMin\tAverage\tMax\tVariance'
 }
 
 test() {
@@ -137,7 +172,6 @@ test() {
         done
     }
 
-    cd $cur_dir
     i=0
     if [ x$teams = x ]; then
         for team in $(ls .git/refs/heads); do
@@ -150,15 +184,23 @@ test() {
         Lines=$1
     else
         i=$(grep -c , $para_file)
-        while [ $i -gt 0 ]; do
+        while [ $i -gt 1 ]; do
             ((i--))
             Lines[i]=$i
         done
     fi
     if [ ! -d $log_dir ]; then
         mkdir -p $log_dir
+        cd $log_dir
+        cd ..
+        i=1
+        while [ -e $i ]; do
+            ((i++))
+        done
+        ln -s $log_dir $log_dir/../$i
     fi
 
+    cd $cur_dir
     echo "Repetition Maximum: $default_trials"
     for Line in ${Lines[*]}; do
         if [ ! -d $log_dir/$Line ]; then
@@ -186,8 +228,8 @@ clean() {
 }
 
 if [ $1 ]; then
-    $1 $2 $3 # 2>/dev/null
+    $1 $2 $3 2>/dev/null
     exit
 else
-    test #2>/dev/null
+    test 2>/dev/null
 fi
