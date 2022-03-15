@@ -3,7 +3,7 @@
 
 default_trials=10
 teams=(master jmh lc lxy yhw ysy zk)
-git_url=git@gitlab.com:Apollo-2d/apollo2d-2022/njupt-2022-apollo-2-d.git
+git_url=https://gitlab.com/Apollo-2d/apollo2d-2022/njupt-2022-apollo-2-d.git
 
 cur_dir=$(dirname $(readlink -f $0))
 src_dir=$cur_dir/FinalTest
