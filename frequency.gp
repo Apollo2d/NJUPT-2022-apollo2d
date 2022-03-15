@@ -12,7 +12,6 @@ set palette rgbformulae 33,13,10
 
 Lines=system("ls -d */")
 do for [Line in Lines]{
-    print Line
     cd Line
     files=system("ls")
     set title Line

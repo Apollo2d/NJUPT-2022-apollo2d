@@ -30,13 +30,16 @@ help() {
     echo -e "build  : build teams with git branches"
     echo -e "         build           \t: build all teams from all branch"
     echo -e "         build [name]    \t: build specific team from branch"
+    echo -e "data   : check data set in picture"
+    echo -e "         data            \t: check default data set: $cur_dir/$para_file"
+    echo -e "         date [file]     \t: specify data set"
     echo -e "test   : test code and get effection from it"
     echo -e "test   : test            \t: test all data with all data set"
     echo -e "         test [Line]     \t: test specific data set for all teams"
     echo -e "         E.g. test 1"
     echo -e "parse  : parse the result and get png files to analyse"
     echo -e "         parse [log_dir] \t: parse logs in specific log directory"
-    echo -e "         E.g. parse logs/20220222222222"
+    echo -e "         E.g. parse logs/2"
     echo -e "rank   : rank from logs"
     echo -e "         rank [log_dir] [para] \t: 'para' includes 'min','ave','max','var'"
     echo -e "         E.g. rank logs/3/2 ave"
@@ -76,6 +79,15 @@ build() {
         ./build.sh
         cp -rf build/src/ $teams_dir/$branch
     done
+}
+
+data() {
+    cd $cur_dir
+    if [ $1 ]; then
+        gnuplot -e "file='$1'" situation.gp
+    else
+        gnuplot -e "file='$para_file'" situation.gp
+    fi
 }
 
 parse() {
@@ -228,7 +240,7 @@ clean() {
 }
 
 if [ $1 ]; then
-    $1 $2 $3 2>/dev/null
+    $1 $2 $3 #2>/dev/null
     exit
 else
     test 2>/dev/null
