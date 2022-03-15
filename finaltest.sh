@@ -2,7 +2,8 @@
 # set -x
 
 default_trials=10
-teams=(master jmh lc lxy yhw ysy zk)
+# teams=(master jmh lc lxy yhw ysy zk)
+teams=$(ls teams)
 git_url=https://gitlab.com/Apollo-2d/apollo2d-2022/njupt-2022-apollo-2-d.git
 
 cur_dir=$(dirname $(readlink -f $0))
@@ -187,14 +188,8 @@ test() {
             sleep 0.1
         done
     }
-
-    i=0
-    if [ x$teams = x ]; then
-        for team in $(ls .git/refs/heads); do
-            teams[i]=$team
-            ((i++))
-        done
-    fi
+    cd $cur_dir
+    teams=$(ls teams)
 
     if [ $1 ]; then
         Lines=$1
@@ -227,7 +222,7 @@ test() {
         let "Line--"
         echo -e "\033[36m====================Begin test Line:$Line==============================\033[0m"
         echo -e "ball_pos_x:$ball_pos_x ball_pos_y:$ball_pos_y ball_vel_x:$ball_vel_x ball_vel_y:$ball_vel_y"
-        for team in ${teams[*]}; do
+        for team in $teams; do
             run $ball_pos_x $ball_pos_y $ball_vel_x $ball_vel_y $default_trials $team $Line
         done
         echo -e "\033[32m====================End test Line:$Line================================\033[0m"
@@ -244,7 +239,7 @@ clean() {
 }
 
 if [ $1 ]; then
-    $1 $2 $3 #2>/dev/null
+    $1 $2 $3 2>/dev/null
     exit
 else
     test 2>/dev/null
